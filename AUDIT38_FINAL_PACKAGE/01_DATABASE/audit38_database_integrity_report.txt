@@ -1,0 +1,64 @@
+================================================================================
+   AUDIT 38 — DATABASE INTEGRITY & RECONCILIATION REPORT
+================================================================================
+
+1. CRYPTOGRAPHIC INTEGRITY & SAFETY INVARIANTS
+--------------------------------------------------------------------------------
+- Canonical Database File:        ai_ecosystem.db
+- Canonical Database SHA-256:     4949352d4f568f3f6128f398591cd8edac2eba45496c24535edb6c096398b95d
+- Canonical Database Expected:    4949352d4f568f3f6128f398591cd8edac2eba45496c24535edb6c096398b95d
+- Canonical Verification Status:  MATCH (Byte-Identical, Untouched)
+- Canonical Total Records:        6,745 (Baseline: 6,745)
+- Canonical SQLite Integrity:     ok
+
+- Authentic Audit 19 File:        audit19_original_database.db
+- Authentic Audit 19 SHA-256:     1958c59f1a02e5a4bd274f114fdcfdd40942239f518eb662119962a263c84d4d
+- Authentic Audit 19 Expected:    1958c59f1a02e5a4bd274f114fdcfdd40942239f518eb662119962a263c84d4d
+- Audit 19 Verification Status:   MATCH (Byte-Identical, Untouched)
+- Audit 19 Total Records:         366 (Baseline: 366)
+
+- Working Database File:          rolling_ai_ecosystem.db
+- Working Database SHA-256:       7a579df9924861cb1fc0f97bf59ca87cbca449ef0765a93da313da556d228e21
+- Working SQLite Integrity:       ok
+
+2. WORKING DATABASE TABLE RECORD COUNTS
+--------------------------------------------------------------------------------
+  ai_jobs                      :  1,963 records
+  ai_news                      :  1,138 records
+  ai_products                  :  1,316 records
+  ai_research_papers           :  1,060 records
+  ai_startups                  :  1,307 records
+  collection_logs              :      5 records
+  enrichment_proposals         :     20 records
+  github_metrics_history       :    205 records
+  github_repositories          :    190 records
+  sqlite_sequence              :      1 records
+
+3. DOMAIN DATE TYPE CLASSIFICATIONS
+--------------------------------------------------------------------------------
+  ai_startups:
+    - UNVERIFIED_DATE                :  1,307 records
+  ai_products:
+    - UNVERIFIED_DATE                :  1,316 records
+  ai_research_papers:
+    - RESEARCH_PUBLICATION_DATE      :  1,060 records
+  ai_news:
+    - NEWS_PUBLICATION_DATE          :  1,138 records
+  ai_jobs:
+    - JOB_POSTING_DATE               :  1,963 records
+
+4. JOB LIFECYCLE TAXONOMY (AUDIT 38 RESOLVED)
+--------------------------------------------------------------------------------
+  Job Status Breakdown (Total: 1,963 jobs):
+    - AGGREGATOR_LISTED            :    431 records
+    - CLOSED                       :      1 records
+    - EMPLOYER_CONFIRMED_OPEN      :  1,531 records
+  Vacancy Status Breakdown:
+    - ACTIVE                       :  1,404 records
+    - CLOSED                       :      1 records
+    - EXPIRED                      :    127 records
+    - SOURCE_LISTED                :    431 records
+
+5. ENRICHMENT PROPOSAL SAFETY INVARIANT
+--------------------------------------------------------------------------------
+  PENDING_APPROVAL             :     20 records (Strict human review gate)

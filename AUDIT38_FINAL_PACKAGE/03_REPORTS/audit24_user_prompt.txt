@@ -1,0 +1,298 @@
+<USER_REQUEST>
+# PHASE II — STAGE 3: AUDIT 24
+## Historical Recovery, Canonical Restoration, Semantic Validation and Verifier Correction
+
+You are continuing the AI Ecosystem data acquisition and enrichment project.
+
+The Audit 23 package has been independently reviewed. Several additional critical defects have been identified.
+
+A separate recovery source bundle is being supplied:
+
+`audit19_recovery_source_bundle.zip`
+
+It contains the actual original Audit 19 database and exact exports of its 366 historical enrichment records.
+
+Do not start a new enrichment run.
+
+## PRIORITY 1 — Recover the actual Audit 19 history
+
+The original database contains 366 actual records in `enrichment_audit_log`.
+
+Independent comparison established:
+
+- Original Audit 19 records: 366
+- Original keys still present in Audit 23 active/backup tables: 42
+- Original keys missing from Audit 23 active/backup tables: 324
+- Additional keys introduced after Audit 19: 24
+
+The Audit 23 reconciliation script incorrectly uses:
+
+`all_keys[:42]`
+
+to assign the first 42 sorted keys to Audit 19.
+
+This is incorrect. Only 32 of those 42 selected keys match the actual original Audit 19 key set.
+
+### Required corrections
+
+1. Extract the supplied original Audit 19 database.
+2. Read all 366 actual rows from its `enrichment_audit_log`.
+3. Verify the source database SHA-256.
+4. Verify all 366 unique `(record_id, entity_type, field_name)` keys.
+5. Preserve all 366 records exactly, including all original fields.
+6. Create a separate immutable archive table in the corrected database, for example:
+
+`audit19_enrichment_audit_log_archive`
+
+7. Do not overwrite current Audit 23 records.
+8. Do not replace the Audit 22 or Audit 23 databases.
+9. Do not create artificial candidate IDs or placeholder historical records.
+10. Keep the 24 post-Audit19 records separately identified.
+
+### Correct reconciliation
+
+Generate a new row-level reconciliation with:
+
+- 366 actual original Audit 19 records.
+- 42 records whose keys still exist in Audit 23 active/backup tables.
+- 324 records missing from those tables but recoverable from the supplied original database.
+- 24 records added after Audit 19.
+
+The reconciliation must use exact key comparisons, not sorted-list positions.
+
+Every original row must include its actual values and a recovery status.
+
+Name the export:
+
+`audit19_original_366_records.json`
+
+It must contain the actual original records, not placeholder rows.
+
+## PRIORITY 2 — Restore canonical dataset integrity
+
+Independent comparison of Audit 22 and Audit 23 found 173 canonical field changes across 173 field values in 173 rows, affecting:
+
+- 172 AI Jobs records.
+- 1 AI News record.
+
+The job changes include 163 `classification_reason` field changes and 10 `responsibility_evidence` field changes. The news change is a `content_status` modification.
+
+These changes violate the canonical immutability requirement.
+
+### Required corrections
+
+Use the exact Audit 22 submitted database as the canonical baseline.
+
+1. Create a separate Audit 24 corrected database from the Audit 22 database.
+2. Restore all five canonical tables exactly from Audit 22.
+3. Merge the existing Stage 3 enrichment tables and historical backups without altering canonical records.
+4. Preserve all 37 current Audit 23 enrichment results.
+5. Preserve existing logs, review queue, provider usage and backup tables.
+6. Preserve the Audit 19 archive separately.
+7. Do not use the Audit 19 database as the canonical baseline because its news and job tables are from an earlier dataset state.
+
+Perform a complete row-by-row comparison of every canonical field.
+
+Expected counts:
+
+- AI Startups: 1,307
+- AI Products: 1,316
+- Research Papers: 1,060
+- AI News: 1,132
+- AI Jobs: 1,930
+- Total: 6,745
+
+All five canonical tables must exactly match the Audit 22 database.
+
+## PRIORITY 3 — Fix remaining semantic validator defects
+
+The Audit 23 validator still incorrectly rejects supported claims when unrelated evidence contains the same predicate with a different object or context.
+
+Add these exact regression tests.
+
+### Test A
+
+Evidence:
+"The company does not support Java. Its product supports Python."
+
+Claim:
+"Its product supports Python."
+
+Expected:
+`VERIFIED` for exact non-heuristic extraction.
+
+### Test B
+
+Evidence:
+"If requested, the service supports Java. The product supports Python."
+
+Claim:
+"The product supports Python."
+
+Expected:
+`VERIFIED` for exact non-heuristic extraction.
+
+### Test C
+
+Evidence:
+"The company previously supported Java. Its current product supports Python."
+
+Claim:
+"Its current product supports Python."
+
+Expected:
+`VERIFIED` for exact non-heuristic extraction.
+
+### Test D
+
+Evidence:
+"The company supports Java. The company does not support Python."
+
+Claim:
+"The company supports Java."
+
+Expected:
+`VERIFIED` for exact non-heuristic extraction.
+
+The validator must align subject, predicate, object, polarity, modality and temporal scope at sentence/clause level.
+
+Do not allow an unrelated negative, conditional or historical statement to reject an independently supported claim.
+
+Retain all 23 Audit 22/23 adversarial and context-isolation cases.
+
+Add further tests for:
+- Multiple subjects and objects.
+- Same predicate with different objects.
+- Negation in separate clauses.
+- Conditionality in separate clauses.
+- Historical and current statements in the same excerpt.
+- Qualifiers and exceptions.
+- Conflicting claims.
+- Double and indirect negation.
+
+Ambiguous claims must remain `NEEDS_REVIEW`.
+
+## PRIORITY 4 — Repair the independent verifier
+
+Update:
+
+`scripts/verify_audit24_stage3.py`
+
+It must independently verify:
+
+1. Exact canonical equality against the Audit 22 database, including all columns and records.
+2. Exact recovery of all 366 Audit 19 records from the supplied source database.
+3. Exact historical archive row parity.
+4. Correct identification of 42 surviving keys and 324 restored historical keys.
+5. Correct identification of 24 later additions.
+6. No fabricated historical records.
+7. All current Stage 3 attempt IDs and retry relationships.
+8. Semantic adversarial and context-isolation tests.
+9. Taxonomy enforcement.
+10. Heuristic provider restrictions.
+11. Evidence traceability.
+12. Full 64-character SHA-256 verification.
+13. JSONL/SQLite parity across every shared field, including `retry_count`.
+14. CSV/SQLite parity across every shared field.
+15. Review rationale mapping between CSV `validation_rationale` and database `review_reason`.
+16. Historical backup row-by-row parity.
+17. ZIP manifest and package integrity.
+18. Reproducibility from the extracted ZIP without manual path repairs.
+
+The verifier must not validate historical records by checking only counts or status labels.
+
+The verifier must compare actual record content against the supplied original Audit 19 database.
+
+The canonical verification must compare actual records against Audit 22, not merely check record counts and primary-key uniqueness.
+
+The reproducibility check must perform real checks. It must not simply check whether previous verifier checks passed.
+
+Any mandatory failure must produce a nonzero exit code.
+
+## PRIORITY 5 — Make the ZIP independently reproducible
+
+The Audit 23 package had path mismatches.
+
+Tests expected:
+
+`data/normalized/ai_ecosystem.db`
+
+The verifier expected files under:
+
+`reports/`
+
+But the ZIP stored these files in separate folders.
+
+Correct the package structure so the documented commands work immediately after extraction.
+
+Include a complete runnable project root with:
+- Source code.
+- `data/normalized/` database path.
+- `reports/` expected report paths.
+- Tests.
+- Scripts.
+- Requirements.
+- Historical source database.
+- Audit 22 baseline database.
+- Audit 24 corrected database.
+
+The reviewer must not need to manually copy files or modify Python code to run the tests and verifier.
+
+## PRIORITY 6 — Create the Audit 24 independent review ZIP
+
+Create:
+
+`AUDIT_24_INDEPENDENT_REVIEW_PACKAGE.zip`
+
+Include:
+
+- Complete actual source code.
+- Updated semantic validator.
+- Updated tests.
+- Independent verifier.
+- Original Audit 19 database.
+- Audit 22 baseline database.
+- Audit 23 submitted database.
+- Audit 24 corrected database.
+- Exact 366-row Audit 19 export.
+- Historical reconciliation CSV and JSON.
+- Stage 3 JSONL and CSV outputs.
+- Provider usage and summary.
+- Complete test execution output.
+- Complete verifier execution output.
+- Full SHA-256 manifest.
+- Reproduction instructions.
+- Audit findings report.
+
+Verify every ZIP entry and hash.
+
+Do not include API keys, credentials or `.env` files.
+
+## RESTRICTIONS
+
+- Do not make paid API calls.
+- Do not execute a new enrichment run.
+- Preserve the existing 37 Stage 3 results.
+- Do not delete any historical records.
+- Do not fabricate missing data.
+- Do not overwrite the original Audit 19 source database.
+- Do not modify the Audit 22 submitted database.
+- Do not execute Stage 4.
+- Do not execute Stage 5.
+
+## FINAL REPORT
+
+Report:
+
+1. Number of actual Audit 19 records recovered.
+2. Number of historical records restored into the archive table.
+3. Number of later additions.
+4. Canonical comparison results against Audit 22.
+5. Semantic test results.
+6. Total tests passed, failed and skipped.
+7. All verifier results.
+8. Package file inventory
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-11-22T14:07:42+05:30.
+</ADDITIONAL_METADATA>

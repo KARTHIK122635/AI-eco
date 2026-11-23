@@ -1,0 +1,10 @@
+ID: job_b678befa49d8eca6 | Title: Head of Community Relations, Compute | Co: Anthropic | Cat: NON_TECHNICAL
+  Resp: Track payment schedules and rent recovery against each site's construction milestones, with Finance
+ID: job_aa001c816ac245da | Title: Director & AGC, U.S. Public Sector | Co: Scale AI | Cat: NON_TECHNICAL
+  Resp: Advise the public sector business development teams on proposals and federal procurement law. Negotiate contracts for ne
+ID: job_011867a56e3a13b5 | Title: Subcontracts Manager, Public Sector | Co: Scale AI | Cat: NON_TECHNICAL
+  Resp: Own day-to-day relationships with subcontractors supporting large Public Sector programs, including major defense primes
+ID: job_925f996711f5726c | Title: Technical Program Lead, Public Sector | Co: Scale AI | Cat: NON_TECHNICAL
+  Resp: Scale's Public Sector customer base is growing rapidly, and you will ensure that these customers become passionate, life
+ID: job_64c38be2a751da26 | Title: Senior Strategy & Operations Manager | Co: Snorkel AI | Cat: NON_TECHNICAL
+  Resp: Partner with leaders across DaaS — Supply, Delivery, GTM, Innovation, Finance, and Engineering — to bring operational cl

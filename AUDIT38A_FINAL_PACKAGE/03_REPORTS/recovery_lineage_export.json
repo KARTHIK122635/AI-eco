@@ -1,0 +1,97 @@
+{
+  "export_metadata": {
+    "title": "Audit 34 Recovery Run ID Ownership and Lineage Export",
+    "generated_at": "2026-11-22T21:00:23.900658+00:00",
+    "target_system": "Six-Month Rolling AI Ecosystem Intelligence Pipeline",
+    "authoritative_audit": "Audit 34"
+  },
+  "production_database_runs": [
+    {
+      "run_id": "run_20261122_150000_221724",
+      "execution_type": "ROUTINE_DAILY_INCREMENTAL",
+      "status": "COMPLETED",
+      "start_time": "2026-11-22T15:00:00+00:00",
+      "end_time": "2026-11-22T16:01:06.218004+00:00",
+      "original_run_id": null,
+      "recovery_run_id": null,
+      "lease_owner": null,
+      "process_id": null,
+      "host_name": null,
+      "last_heartbeat": null,
+      "checkpoint_data": "{\"original_run_id\": null, \"recovery_run_id\": null, \"resume_from_stage\": null, \"resumed_stages\": [\"STAGE_1_NEWS\", \"STAGE_2_JOBS\", \"STAGE_3_GITHUB_METRICS\", \"STAGE_4_VACANCY_LIFECYCLE\", \"STAGE_5_EXPORTS\", \"STAGE_6_REPORT\"], \"completed_stages\": [\"STAGE_1_NEWS\", \"STAGE_2_JOBS\", \"STAGE_3_GITHUB_METRICS\", \"STAGE_4_VACANCY_LIFECYCLE\", \"STAGE_5_EXPORTS\", \"STAGE_6_REPORT\"], \"last_completed_stage\": \"STAGE_6_REPORT\"}",
+      "error_log": null
+    }
+  ],
+  "verified_lineage_cycles": [
+    {
+      "cycle_id": "CYCLE_01_REAL_HARD_KILL_RECOVERY",
+      "test_case": "test_01_real_hard_kill_during_actual_pipeline_recovery",
+      "original_run_id": "test_audit34_hard_kill_orig",
+      "original_terminal_status": "RECOVERED_INTERRUPTED",
+      "abandoned_recovery_run_id": "recovery_worker_killed_pid",
+      "abandoned_terminal_status": "ABANDONED_RECOVERY",
+      "final_recovery_run_id": "recovery_supervisor_resumed",
+      "final_recovery_status": "COMPLETED",
+      "bidirectional_lineage_status": "VERIFIED_BIDIRECTIONAL",
+      "resumed_from_stage": "STAGE_3_GITHUB_METRICS",
+      "skipped_stages": [
+        "STAGE_1_NEWS",
+        "STAGE_2_JOBS"
+      ],
+      "completed_stages": [
+        "STAGE_3_GITHUB_METRICS",
+        "STAGE_4_VACANCY_LIFECYCLE",
+        "STAGE_5_EXPORTS",
+        "STAGE_6_REPORT"
+      ],
+      "lineage_invariants": {
+        "orig_references_final_recovery": true,
+        "final_recovery_references_orig": true,
+        "abandoned_references_orig": true,
+        "zero_stage_duplication": true
+      }
+    },
+    {
+      "cycle_id": "CYCLE_02_HEALTHY_LEASE_PROTECTION",
+      "test_case": "test_02_healthy_lease_protection_across_independent_processes",
+      "active_run_id": "run_proc_a_healthy",
+      "active_run_status": "IN_PROGRESS -> COMPLETED",
+      "competing_process": "proc_b_scheduler",
+      "competing_result": "RECOVERY_REFUSED (0 recoverable runs discovered)",
+      "competing_recovery_rows_created": 0,
+      "bidirectional_lineage_status": "VERIFIED_UNCONTAMINATED",
+      "lineage_invariants": {
+        "active_lease_unbroken": true,
+        "zero_stolen_locks": true,
+        "zero_secondary_recovery_runs": true
+      }
+    },
+    {
+      "cycle_id": "CYCLE_03_DIRECT_RECOVERY_RESUMPTION",
+      "test_case": "test_03_bidirectional_lineage_and_ownership_verification",
+      "original_run_id": "test_lineage_orig_run",
+      "original_terminal_status": "RECOVERED_INTERRUPTED",
+      "abandoned_recovery_run_id": null,
+      "abandoned_terminal_status": "N/A (Direct clean recovery)",
+      "final_recovery_run_id": "recovery_lineage_clean",
+      "final_recovery_status": "COMPLETED",
+      "bidirectional_lineage_status": "VERIFIED_BIDIRECTIONAL",
+      "resumed_from_stage": "STAGE_5_EXPORTS",
+      "skipped_stages": [
+        "STAGE_1_NEWS",
+        "STAGE_2_JOBS",
+        "STAGE_3_GITHUB_METRICS",
+        "STAGE_4_VACANCY_LIFECYCLE"
+      ],
+      "completed_stages": [
+        "STAGE_5_EXPORTS",
+        "STAGE_6_REPORT"
+      ],
+      "lineage_invariants": {
+        "orig_references_final_recovery": true,
+        "final_recovery_references_orig": true,
+        "single_recovery_id_generated": true
+      }
+    }
+  ]
+}

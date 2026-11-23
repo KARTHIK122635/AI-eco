@@ -1,0 +1,12 @@
+[
+  {
+    "call_id": "c709ab99-93b2-48e2-a807-8ef8ea0afac7",
+    "provider": "offline",
+    "model": "heuristic-keyword-v1",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "estimated_cost_usd": 0.0,
+    "recorded_at": "2026-11-22T05:49:06.292421+00:00"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "index": 1,
+    "jobId": "job_84c88005f767d607",
+    "company": "CoreWeave",
+    "title": "Data Center Commissioning/Quality Manager",
+    "category": "NON_TECHNICAL",
+    "reason": "Oversees electrical, mechanical, and safety commissioning quality assurance across data center construction projects.",
+    "flag_pattern": "\\bmission\\b",
+    "current_evidence": "You will oversee the installation and testing of components and systems, including mission-critical systems such as generators, UPS systems, electrical distribution equipment, and redundancy protocols, as well as cooling systems such as chillers and CDUs."
+  },
+  {
+    "index": 2,
+    "jobId": "job_0eb8a39b77bea5dc",
+    "company": "Harmattan Ai",
+    "title": "Machine Learning Engineer Intern - Computer Vision",
+    "category": "CORE_AI_ML",
+    "reason": "Designs, trains, and optimizes machine learning and deep learning models for core algorithmic AI systems.",
+    "flag_pattern": "\\bvision\\b",
+    "current_evidence": "Run literature reviews and state-of-the-art analyses on computer vision and machine learning topics framed by the team. Scope projects, define tasks, and decide which approaches to benchmark, from baselines to the most prominent algorithms."
+  },
+  {
+    "index": 3,
+    "jobId": "job_71f5c7b45f026e5a",
+    "company": "Sunflower Labs GmbH",
+    "title": "Computer Vision and Machine Learning Engineer",
+    "category": "CORE_AI_ML",
+    "reason": "Designs, trains, and optimizes machine learning and deep learning models for core algorithmic AI systems.",
+    "flag_pattern": "\\bvision\\b",
+    "current_evidence": "Design and develop a wide variety of computer vision and machine learning features for unmanned aerial vehicle (UAV) applications Train, fine-tune and evaluate deep learning models for tasks such as object detection, instance segmentation, image retrieval/reidentification"
+  },
+  {
+    "index": 4,
+    "jobId": "job_42a1da156e346751",
+    "company": "CDDS AG",
+    "title": "Senior Vision & Perception Engineer",
+    "category": "CORE_AI_ML",
+    "reason": "Designs, trains, and optimizes machine learning and deep learning models for core algorithmic AI systems.",
+    "flag_pattern": "\\bvision\\b",
+    "current_evidence": "Implement and optimize vision pipelines in C++ for low-latency object detection and tracking Develop high-speed detection and tracking algorithms on Jetson platforms"
+  },
+  {
+    "index": 5,
+    "jobId": "job_0d920108a62c8874",
+    "company": "Scale AI",
+    "title": "Finance Fellow - Human Frontier Collective (UK)",
+    "category": "NON_TECHNICAL",
+    "reason": "Provides domain advisory expertise, expert consensus workflows, and non-technical governance for AI evaluation.",
+    "flag_pattern": "priority_manual",
+    "current_evidence": "Develop and evaluate complex financial scenarios to test and enhance AI accuracy in valuation, forecasting, and analysis; collaborate in interactive sessions to assess model outputs for market relevance and compliance; provide detailed feedback to improve AI capabilities; and contribute to specialized projects in financial modeling, risk assessment, and equity research."
+  },
+  {
+    "index": 6,
+    "jobId": "job_8ad086e5f89d9290",
+    "company": "Scale AI",
+    "title": "Medical Fellow - Human Frontier Collective (UK)",
+    "category": "NON_TECHNICAL",
+    "reason": "Provides domain advisory expertise, expert consensus workflows, and non-technical governance for AI evaluation.",
+    "flag_pattern": "priority_manual",
+    "current_evidence": "Design complex clinical scenarios, evaluate model decision-making for safety and accuracy, and shape reasoning frameworks through structured, example-driven feedback."
+  },
+  {
+    "index": 7,
+    "jobId": "job_9a8d370f471b9403",
+    "company": "Scale AI",
+    "title": "Medical Fellow - Human Frontier Collective (US)",
+    "category": "NON_TECHNICAL",
+    "reason": "Provides domain advisory expertise, expert consensus workflows, and non-technical governance for AI evaluation.",
+    "flag_pattern": "priority_manual",
+    "current_evidence": "Design complex clinical scenarios, evaluate model decision-making for safety and accuracy, and shape reasoning frameworks through structured, example-driven feedback."
+  },
+  {
+    "index": 8,
+    "jobId": "job_4c10396068078ad5",
+    "company": "Scale AI",
+    "title": "Principal Software Engineer, GPS",
+    "category": "AI_SUPPORTING_TECH",
+    "reason": "Engineers mission-critical software architectures, operational data pipelines, and public sector AI deployments.",
+    "flag_pattern": "priority_manual",
+    "current_evidence": "Build working prototypes quickly, from AI agents and evaluation pipelines to data and knowledge systems, and take the most promising ones to production"
+  }
+]

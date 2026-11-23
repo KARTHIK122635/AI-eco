@@ -1,0 +1,64 @@
+{
+  "manifest_version": "1.0",
+  "created_at": "2026-11-23T05:25:31.705115+00:00",
+  "description": "Authoritative manifest of protected canonical databases, working databases, and sensitive assets.",
+  "protected_databases": {
+    "Canonical DB": {
+      "path": "data/normalized/ai_ecosystem.db",
+      "expected_sha256": "4949352d4f568f3f6128f398591cd8edac2eba45496c24535edb6c096398b95d",
+      "verified_sha256": "4949352d4f568f3f6128f398591cd8edac2eba45496c24535edb6c096398b95d",
+      "status": "VERIFIED_BIT_FOR_BIT_MATCH"
+    },
+    "Authentic Audit19 DB": {
+      "path": "source/audit19_original_database.db",
+      "expected_sha256": "1958c59f1a02e5a4bd274f114fdcfdd40942239f518eb662119962a263c84d4d",
+      "verified_sha256": "1958c59f1a02e5a4bd274f114fdcfdd40942239f518eb662119962a263c84d4d",
+      "status": "VERIFIED_BIT_FOR_BIT_MATCH"
+    },
+    "Baseline Working DB": {
+      "path": "data/working/rolling_ai_ecosystem.db",
+      "expected_sha256": "cbc1814cf3c6546a4dfa1d2e731648aead070b133b38892ddd599a6e385c2127",
+      "verified_sha256": "cbc1814cf3c6546a4dfa1d2e731648aead070b133b38892ddd599a6e385c2127",
+      "status": "VERIFIED_BIT_FOR_BIT_MATCH"
+    },
+    "Candidate Working DB": {
+      "path": "data/working/candidate_rolling_ai_ecosystem.db",
+      "expected_sha256": "eca573b4a4f1c045f417883772308050418c2d471250be7fda6c68e1ec023198",
+      "verified_sha256": "eca573b4a4f1c045f417883772308050418c2d471250be7fda6c68e1ec023198",
+      "status": "VERIFIED_BIT_FOR_BIT_MATCH"
+    }
+  },
+  "protected_security_assets": [
+    "secrets/google_oauth_client.json",
+    "secrets/google_sheets_token.json",
+    ".env"
+  ],
+  "protected_core_modules": [
+    "core/canonical.py",
+    "core/daily_pipeline.py",
+    "core/deduplicator.py",
+    "core/engine.py",
+    "core/enrichment.py",
+    "core/entity_resolution.py",
+    "core/env_loader.py",
+    "core/freshness_engine.py",
+    "core/github_client.py",
+    "core/google_sheets_client.py",
+    "core/job_schemas.py",
+    "core/models.py",
+    "core/news_schemas.py",
+    "core/paper_github_pipeline.py",
+    "core/registry.py",
+    "core/rolling_window.py",
+    "core/scheduler.py",
+    "core/schemas.py",
+    "core/sheets_dashboard_builder.py",
+    "core/sheets_data_dictionary.py",
+    "core/sheets_sync_engine.py",
+    "core/sheets_transformer.py",
+    "core/storage.py",
+    "core/working_database.py",
+    "main.py",
+    "requirements.txt"
+  ]
+}

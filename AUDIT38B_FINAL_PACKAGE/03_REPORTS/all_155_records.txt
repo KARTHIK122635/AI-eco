@@ -1,0 +1,20 @@
+[1] job_b678befa49d8eca6 | Anthropic | Head of Community Relations, Compute
+    Resp: Track payment schedules and rent recovery against each site's construction milestones, with Finance
+    Qual: Have owned a program or portfolio end to end across many sites or deals, and kept named owners to dates Have negotiated incentive, tax and community commitments with state and local governments for new sites, and closed them as signed agreements Have worked
+
+[2] job_aa001c816ac245da | Scale AI | Director & AGC, U.S. Public Sector
+    Resp: Advise the public sector business development teams on proposals and federal procurement law. Negotiate contracts for new business and manage follow-on contracts with the federal government and prime contractors.
+    Qual: None
+
+[3] job_011867a56e3a13b5 | Scale AI | Subcontracts Manager, Public Sector
+    Resp: Own day-to-day relationships with subcontractors supporting large Public Sector programs, including major defense primes and specialized technical partners Understand Scale’s overall technical solution and ensure each subcontractor clearly understands how its scope, interfaces, and deliverables fit into that solution Translate prime contract milestones and program requirements into clear subcontractor deliverables, timelines, dependencies, and acceptance criteria
+    Qual: into clear subcontractor deliverables, timelines, dependencies, and acceptance criteria Integrate subcontractor activities into the broader Integrated Master Schedule (IMS) and proactively identify dependencies, risks, and potential schedule impacts Hold
+
+[4] job_925f996711f5726c | Scale AI | Technical Program Lead, Public Sector
+    Resp: Scale's Public Sector customer base is growing rapidly, and you will ensure that these customers become passionate, lifelong Scale partners.
+    Qual: are undefined or ambiguous Partner with engineering, operations, and other public sector teams to build and deliver AI systems tailored to unique government use cases in the computer vision and generative AI domains Set the technical direction for a
+
+[5] job_64c38be2a751da26 | Snorkel AI | Senior Strategy & Operations Manager
+    Resp: Partner with leaders across DaaS — Supply, Delivery, GTM, Innovation, Finance, and Engineering — to bring operational clarity, execution rigor, and alignment to their highest-priority initiatives Own the operating cadence of the business — weekly, monthly,
+    Qual: 7+ years of experience in strategy, operations, consulting, or similar roles Experience partnering closely with operational leaders in high-growth or complex environments Demonstrated ability to drive cross-functional initiatives and deliver outcomes
+

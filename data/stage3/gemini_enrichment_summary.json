@@ -1,0 +1,53 @@
+{
+  "execution_metadata": {
+    "runner": "GeminiEnrichmentRunner",
+    "model_id": "gemini-3.1-flash-lite",
+    "provider": "google-gemini",
+    "started_at": "2026-11-22T11:31:30.385478+00:00",
+    "completed_at": "2026-11-22T11:34:56.664613+00:00",
+    "elapsed_seconds": 206.28
+  },
+  "candidate_counts": {
+    "total_candidates": 37,
+    "processed": 37,
+    "api_requests_successful": 37,
+    "api_requests_failed": 0
+  },
+  "status_distribution": {
+    "VERIFIED": 3,
+    "NEEDS_REVIEW": 23,
+    "INSUFFICIENT_EVIDENCE": 0,
+    "FAILED": 11
+  },
+  "approval_distribution": {
+    "PENDING_APPROVAL": 37,
+    "APPROVED": 0,
+    "REJECTED": 0,
+    "REQUEST_REVIEW": 0
+  },
+  "usage_and_costs": {
+    "prompt_tokens": 41822,
+    "candidates_tokens": 11793,
+    "total_tokens": 53615,
+    "estimated_cost_usd": 0.006675
+  },
+  "database_integrity": {
+    "pre_execution_sha256": "4949352d4f568f3f6128f398591cd8edac2eba45496c24535edb6c096398b95d",
+    "post_execution_sha256": "4949352d4f568f3f6128f398591cd8edac2eba45496c24535edb6c096398b95d",
+    "canonical_database_unchanged": true,
+    "historical_audit19_preserved": true
+  },
+  "output_artifacts": {
+    "results_jsonl": "C:\\Users\\karth\\OneDrive\\Documents\\Ai Solution data\\data\\stage3\\gemini_enrichment_results.jsonl",
+    "review_queue_csv": "C:\\Users\\karth\\OneDrive\\Documents\\Ai Solution data\\data\\stage3\\gemini_review_queue.csv",
+    "summary_json": "C:\\Users\\karth\\OneDrive\\Documents\\Ai Solution data\\data\\stage3\\gemini_enrichment_summary.json",
+    "audit_log": "C:\\Users\\karth\\OneDrive\\Documents\\Ai Solution data\\data\\stage3\\gemini_enrichment_audit.log"
+  },
+  "schema_compatibility": {
+    "schema_compatible_count": 13,
+    "schema_blocked_count": 24,
+    "verified_blocked_by_schema_count": 3,
+    "duplicated_canonical_data_count": 6,
+    "governance_note": "Proposals targeting non-existent canonical columns are strictly blocked from database writes with status BLOCKED_SCHEMA. All proposals remain PENDING_APPROVAL."
+  }
+}

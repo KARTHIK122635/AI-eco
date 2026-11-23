@@ -1,0 +1,234 @@
+{
+  "spreadsheet_id": "194VUo-VyuEiqSIk-4xq9z2ZA_NiD9UkiOU_nP0IzuLI",
+  "spreadsheet_title": "AI Ecosystem Intelligence Dashboard",
+  "live_worksheets_count": 11,
+  "live_worksheets": {
+    "Dashboard": {
+      "sheet_id": 716942602,
+      "row_count": 1000,
+      "column_count": 26,
+      "index": 0
+    },
+    "Startups": {
+      "sheet_id": 706017576,
+      "row_count": 1317,
+      "column_count": 26,
+      "index": 1
+    },
+    "Products": {
+      "sheet_id": 740012032,
+      "row_count": 1326,
+      "column_count": 26,
+      "index": 2
+    },
+    "Research_Papers": {
+      "sheet_id": 433251445,
+      "row_count": 1070,
+      "column_count": 26,
+      "index": 3
+    },
+    "AI_News": {
+      "sheet_id": 855816761,
+      "row_count": 1148,
+      "column_count": 26,
+      "index": 4
+    },
+    "AI_Jobs": {
+      "sheet_id": 2028636850,
+      "row_count": 1973,
+      "column_count": 36,
+      "index": 5
+    },
+    "GitHub_Repositories": {
+      "sheet_id": 483368398,
+      "row_count": 1000,
+      "column_count": 26,
+      "index": 6
+    },
+    "GitHub_Metrics": {
+      "sheet_id": 1243210950,
+      "row_count": 1000,
+      "column_count": 26,
+      "index": 7
+    },
+    "Collection_Logs": {
+      "sheet_id": 1701058697,
+      "row_count": 1000,
+      "column_count": 31,
+      "index": 8
+    },
+    "Sync_Log": {
+      "sheet_id": 1081150275,
+      "row_count": 1000,
+      "column_count": 26,
+      "index": 9
+    },
+    "Data_Dictionary": {
+      "sheet_id": 450784151,
+      "row_count": 1000,
+      "column_count": 26,
+      "index": 10
+    }
+  },
+  "proposed_changes": {
+    "new_worksheets_to_add": [
+      {
+        "title": "GitHub_Associations",
+        "proposed_rows": 193,
+        "proposed_cols": 11,
+        "cells_to_write": 2123
+      },
+      {
+        "title": "GitHub_Analytics",
+        "proposed_rows": 48,
+        "proposed_cols": 8,
+        "cells_to_write": 384
+      }
+    ],
+    "worksheets_to_evolve": [
+      {
+        "title": "GitHub_Repositories",
+        "live_rows": 1000,
+        "live_cols": 26,
+        "live_header_cols": 12,
+        "proposed_rows": 193,
+        "proposed_cols": 25,
+        "cells_to_write": 4825,
+        "header_diff": {
+          "live_headers": [
+            "repo_id",
+            "owner",
+            "repo_name",
+            "html_url",
+            "description",
+            "associated_paper_id",
+            "is_archived",
+            "latest_stars",
+            "latest_forks",
+            "last_checked_at",
+            "status",
+            "last_synced_at"
+          ],
+          "proposed_headers": [
+            "repo_id",
+            "full_name",
+            "owner",
+            "repo_name",
+            "html_url",
+            "description",
+            "primary_language",
+            "latest_stars",
+            "latest_forks",
+            "latest_open_issues",
+            "is_archived",
+            "lifecycle_status",
+            "last_checked_at",
+            "association_count",
+            "evidence_quality",
+            "associated_paper_id",
+            "topics",
+            "created_timestamp",
+            "updated_timestamp",
+            "pushed_timestamp",
+            "default_branch",
+            "is_fork",
+            "license_spdx_id",
+            "collection_run_id",
+            "last_synced_at"
+          ],
+          "added_columns": [
+            "full_name",
+            "primary_language",
+            "latest_open_issues",
+            "lifecycle_status",
+            "association_count",
+            "evidence_quality",
+            "topics",
+            "created_timestamp",
+            "updated_timestamp",
+            "pushed_timestamp",
+            "default_branch",
+            "is_fork",
+            "license_spdx_id",
+            "collection_run_id"
+          ]
+        }
+      },
+      {
+        "title": "GitHub_Metrics",
+        "live_rows": 1000,
+        "live_cols": 26,
+        "live_header_cols": 10,
+        "proposed_rows": 211,
+        "proposed_cols": 17,
+        "cells_to_write": 3587,
+        "header_diff": {
+          "live_headers": [
+            "snapshot_id",
+            "repo_id",
+            "snapshot_timestamp",
+            "stars_count",
+            "forks_count",
+            "change_stars_delta",
+            "change_forks_delta",
+            "retrieval_status",
+            "provenance",
+            "last_synced_at"
+          ],
+          "proposed_headers": [
+            "snapshot_id",
+            "repo_id",
+            "snapshot_timestamp",
+            "stars_count",
+            "forks_count",
+            "open_issues_count",
+            "change_stars_delta",
+            "change_forks_delta",
+            "change_open_issues_delta",
+            "retrieval_status",
+            "provenance",
+            "source_api",
+            "collection_run_id",
+            "daily_stars_delta",
+            "weekly_growth_status",
+            "is_growth_reliable",
+            "last_synced_at"
+          ],
+          "added_columns": [
+            "open_issues_count",
+            "change_open_issues_delta",
+            "source_api",
+            "collection_run_id",
+            "daily_stars_delta",
+            "weekly_growth_status",
+            "is_growth_reliable"
+          ]
+        }
+      }
+    ],
+    "dashboard_updates": {
+      "target_range": "Dashboard!A26:L45",
+      "cells_to_write": 240,
+      "charts_to_add": [
+        {
+          "chart_id": 7,
+          "title": "GitHub Repository Lifecycle Distribution",
+          "type": "PIE"
+        },
+        {
+          "chart_id": 8,
+          "title": "Top AI Research Repositories by Stargazers",
+          "type": "BAR"
+        }
+      ]
+    },
+    "unmodified_worksheets": [
+      "Startups",
+      "Products",
+      "Research_Papers",
+      "AI_News",
+      "AI_Jobs",
+      "Collection_Logs"
+    ]
+  }
+}

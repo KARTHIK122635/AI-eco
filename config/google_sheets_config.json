@@ -1,0 +1,20 @@
+{
+  "spreadsheet_id": "194VUo-VyuEiqSIk-4xq9z2ZA_NiD9UkiOU_nP0IzuLI",
+  "spreadsheet_url": "https://docs.google.com/spreadsheets/d/194VUo-VyuEiqSIk-4xq9z2ZA_NiD9UkiOU_nP0IzuLI/edit",
+  "title": "AI Ecosystem Intelligence Dashboard",
+  "sheet_ids": {
+    "Dashboard": 716942602,
+    "Startups": 706017576,
+    "Products": 740012032,
+    "Research_Papers": 433251445,
+    "AI_News": 855816761,
+    "AI_Jobs": 2028636850,
+    "GitHub_Repositories": 483368398,
+    "GitHub_Metrics": 1243210950,
+    "Collection_Logs": 1701058697,
+    "Sync_Log": 1081150275,
+    "Data_Dictionary": 450784151
+  },
+  "created_at": "2026-11-23T04:35:33Z",
+  "status": "SPREADSHEET_CREATED_HEADERS_INITIALIZED"
+}

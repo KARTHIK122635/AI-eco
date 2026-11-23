@@ -1,0 +1,10 @@
+# Python dependencies for AI Ecosystem Data Acquisition and LLM Enrichment (Stage 3)
+# Audit 23 Independent Review Package
+
+# Core standard library modules used:
+# sqlite3, hashlib, json, csv, re, unittest, dataclasses, typing, datetime, argparse, logging, shutil, os, sys
+
+# Optional external dependencies for remote providers (not invoked during offline review):
+# google-generativeai>=0.8.0
+# openai>=1.50.0
+# groq>=0.11.0

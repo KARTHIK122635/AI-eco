@@ -1,0 +1,48 @@
+section,metric_key,metric_name,value,secondary_value,unit,status,notes
+LIFECYCLE_DISTRIBUTION,lifecycle_active_verified,Repositories: ACTIVE_VERIFIED,61,31.77%,repositories,VERIFIED_EVIDENCE,Evidence-based state (61 of 192 repos)
+LIFECYCLE_DISTRIBUTION,lifecycle_archived_verified,Repositories: ARCHIVED_VERIFIED,0,0.0%,repositories,VERIFIED_EVIDENCE,Evidence-based state (0 of 192 repos)
+LIFECYCLE_DISTRIBUTION,lifecycle_not_found,Repositories: NOT_FOUND,0,0.0%,repositories,VERIFIED_EVIDENCE,Evidence-based state (0 of 192 repos)
+LIFECYCLE_DISTRIBUTION,lifecycle_access_denied,Repositories: ACCESS_DENIED,0,0.0%,repositories,VERIFIED_EVIDENCE,Evidence-based state (0 of 192 repos)
+LIFECYCLE_DISTRIBUTION,lifecycle_api_unavailable,Repositories: API_UNAVAILABLE,0,0.0%,repositories,VERIFIED_EVIDENCE,Evidence-based state (0 of 192 repos)
+LIFECYCLE_DISTRIBUTION,lifecycle_network_error,Repositories: NETWORK_ERROR,0,0.0%,repositories,VERIFIED_EVIDENCE,Evidence-based state (0 of 192 repos)
+LIFECYCLE_DISTRIBUTION,lifecycle_not_yet_checked,Repositories: NOT_YET_CHECKED,131,68.23%,repositories,VERIFIED_EVIDENCE,Evidence-based state (131 of 192 repos)
+LIFECYCLE_DISTRIBUTION,lifecycle_unknown,Repositories: UNKNOWN,0,0.0%,repositories,VERIFIED_EVIDENCE,Evidence-based state (0 of 192 repos)
+ECOSYSTEM_COVERAGE,coverage_research_papers,Research Papers with Code,190,17.92%,entities,VERIFIED_ACCOUNTING,190 out of 1060 entities
+ECOSYSTEM_COVERAGE,coverage_products,Commercial Products with Code,1,0.08%,entities,VERIFIED_ACCOUNTING,1 out of 1316 entities
+ECOSYSTEM_COVERAGE,coverage_startups,AI Startups with Code,0,0.0%,entities,VERIFIED_ACCOUNTING,0 out of 1307 entities
+ECOSYSTEM_COVERAGE,associations_verified,Verified Associations,190,Total: 192,entities,VERIFIED_ACCOUNTING,190 out of 192 entities
+ECOSYSTEM_COVERAGE,associations_manual_review,Manual Review Associations,1,msalman95/DA truncated%,entities,VERIFIED_ACCOUNTING,1 out of 192 entities
+ECOSYSTEM_COVERAGE,associations_unverified,Unverified Associations,1,msalman95/DAL abstract mention%,entities,VERIFIED_ACCOUNTING,1 out of 192 entities
+LANGUAGE_DISTRIBUTION,lang_unknown___not_specified,Unknown / Not Specified,188,"97.92% (1,343 stars)",repositories,VERIFIED_METADATA,188 repositories
+LANGUAGE_DISTRIBUTION,lang_python,Python,3,"1.56% (38,628 stars)",repositories,VERIFIED_METADATA,3 repositories
+LANGUAGE_DISTRIBUTION,lang_java,Java,1,0.52% (4 stars),repositories,VERIFIED_METADATA,1 repositories
+TOP_REPOSITORIES_STARS,top_star_rank_1,PDFMathTranslate/PDFMathTranslate,38601,3457 forks | Python,stars,VERIFIED_METRIC,Rank 1 in ecosystem
+TOP_REPOSITORIES_STARS,top_star_rank_2,apple-aiml-research/ml-depth-pro-2,205,0 forks | N/A,stars,VERIFIED_METRIC,Rank 2 in ecosystem
+TOP_REPOSITORIES_STARS,top_star_rank_3,inclusionAI/CodeWorldModel,159,0 forks | N/A,stars,VERIFIED_METRIC,Rank 3 in ecosystem
+TOP_REPOSITORIES_STARS,top_star_rank_4,Shengxiang-Lin/PGPO,157,0 forks | N/A,stars,VERIFIED_METRIC,Rank 4 in ecosystem
+TOP_REPOSITORIES_STARS,top_star_rank_5,Carol-lyh/Jeveration,72,0 forks | N/A,stars,VERIFIED_METRIC,Rank 5 in ecosystem
+TOP_REPOSITORIES_STARS,top_star_rank_6,be2rlab/ACCORD,68,5 forks | N/A,stars,VERIFIED_METRIC,Rank 6 in ecosystem
+TOP_REPOSITORIES_STARS,top_star_rank_7,agentscope-ai/Piccolo,60,0 forks | N/A,stars,VERIFIED_METRIC,Rank 7 in ecosystem
+TOP_REPOSITORIES_STARS,top_star_rank_8,DreamTechAI/Direct3D-V3,57,3 forks | N/A,stars,VERIFIED_METRIC,Rank 8 in ecosystem
+TOP_REPOSITORIES_STARS,top_star_rank_9,Tencent/WeMM-Video,55,0 forks | N/A,stars,VERIFIED_METRIC,Rank 9 in ecosystem
+TOP_REPOSITORIES_STARS,top_star_rank_10,Tencent/WeVisForensics,48,0 forks | N/A,stars,VERIFIED_METRIC,Rank 10 in ecosystem
+TOP_REPOSITORIES_STARS,top_star_rank_11,Mind2Act/Mind2Act_World,37,1 forks | N/A,stars,VERIFIED_METRIC,Rank 11 in ecosystem
+TOP_REPOSITORIES_STARS,top_star_rank_12,kyutai-labs/aura,30,5 forks | N/A,stars,VERIFIED_METRIC,Rank 12 in ecosystem
+TOP_REPOSITORIES_STARS,top_star_rank_13,lijinzhao30/ALIVE,30,0 forks | N/A,stars,VERIFIED_METRIC,Rank 13 in ecosystem
+TOP_REPOSITORIES_STARS,top_star_rank_14,game2player/Game2Player,26,0 forks | N/A,stars,VERIFIED_METRIC,Rank 14 in ecosystem
+TOP_REPOSITORIES_STARS,top_star_rank_15,AI-sandbox/TabBioMed,25,0 forks | Python,stars,VERIFIED_METRIC,Rank 15 in ecosystem
+SHORT_TERM_VELOCITY,velocity_obs_1,be2rlab/ACCORD,59,33.9h span | 41.81 stars/d,observed_stars_delta,INSUFFICIENT_DATA_RAW_OBSERVATION,Observation span (1.41d) < 5.0d required for weekly rate.
+SHORT_TERM_VELOCITY,velocity_obs_2,DreamTechAI/Direct3D-V3,33,33.9h span | 23.39 stars/d,observed_stars_delta,INSUFFICIENT_DATA_RAW_OBSERVATION,Observation span (1.41d) < 5.0d required for weekly rate.
+SHORT_TERM_VELOCITY,velocity_obs_3,kyutai-labs/aura,14,33.9h span | 9.92 stars/d,observed_stars_delta,INSUFFICIENT_DATA_RAW_OBSERVATION,Observation span (1.41d) < 5.0d required for weekly rate.
+SHORT_TERM_VELOCITY,velocity_obs_4,Mind2Act/Mind2Act_World,10,33.9h span | 7.09 stars/d,observed_stars_delta,INSUFFICIENT_DATA_RAW_OBSERVATION,Observation span (1.41d) < 5.0d required for weekly rate.
+SHORT_TERM_VELOCITY,velocity_obs_5,eltzanis/SystemOneAgents,3,33.9h span | 2.13 stars/d,observed_stars_delta,INSUFFICIENT_DATA_RAW_OBSERVATION,Observation span (1.41d) < 5.0d required for weekly rate.
+SHORT_TERM_VELOCITY,velocity_obs_6,ernie-research/HiUni,3,33.9h span | 2.13 stars/d,observed_stars_delta,INSUFFICIENT_DATA_RAW_OBSERVATION,Observation span (1.41d) < 5.0d required for weekly rate.
+SHORT_TERM_VELOCITY,velocity_obs_7,AI-sandbox/TabBioMed,2,48.9h span | 0.98 stars/d,observed_stars_delta,INSUFFICIENT_DATA_RAW_OBSERVATION,Observation span (2.04d) < 5.0d required for weekly rate.
+SHORT_TERM_VELOCITY,velocity_obs_8,showlab/O2LaF,2,33.9h span | 1.42 stars/d,observed_stars_delta,INSUFFICIENT_DATA_RAW_OBSERVATION,Observation span (1.41d) < 5.0d required for weekly rate.
+SHORT_TERM_VELOCITY,velocity_obs_9,ZJUSCL/TwinLab-Bench,2,33.9h span | 1.42 stars/d,observed_stars_delta,INSUFFICIENT_DATA_RAW_OBSERVATION,Observation span (1.41d) < 5.0d required for weekly rate.
+SHORT_TERM_VELOCITY,velocity_obs_10,PerfectXu88/PAD,2,33.9h span | 1.42 stars/d,observed_stars_delta,INSUFFICIENT_DATA_RAW_OBSERVATION,Observation span (1.41d) < 5.0d required for weekly rate.
+SHORT_TERM_VELOCITY,velocity_obs_11,IlyaGusev/twicetold,1,33.9h span | 0.71 stars/d,observed_stars_delta,INSUFFICIENT_DATA_RAW_OBSERVATION,Observation span (1.41d) < 5.0d required for weekly rate.
+SHORT_TERM_VELOCITY,velocity_obs_12,yermandy/TwinD,1,33.9h span | 0.71 stars/d,observed_stars_delta,INSUFFICIENT_DATA_RAW_OBSERVATION,Observation span (1.41d) < 5.0d required for weekly rate.
+SHORT_TERM_VELOCITY,velocity_obs_13,yaozhang182/inhabitant,1,33.9h span | 0.71 stars/d,observed_stars_delta,INSUFFICIENT_DATA_RAW_OBSERVATION,Observation span (1.41d) < 5.0d required for weekly rate.
+SHORT_TERM_VELOCITY,velocity_obs_14,ADEPT-ORG/FastRoverVLA,1,48.3h span | 0.50 stars/d,observed_stars_delta,INSUFFICIENT_DATA_RAW_OBSERVATION,Observation span (2.01d) < 5.0d required for weekly rate.
+SHORT_TERM_VELOCITY,velocity_obs_15,jmaasch/itpd,1,33.9h span | 0.71 stars/d,observed_stars_delta,INSUFFICIENT_DATA_RAW_OBSERVATION,Observation span (1.41d) < 5.0d required for weekly rate.

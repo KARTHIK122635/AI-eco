@@ -1,0 +1,60 @@
+{
+  "sources": [
+    {
+      "id": "ycombinator",
+      "class": "sources.ycombinator.YCombinatorCollector",
+      "enabled": true,
+      "base_url": "https://www.ycombinator.com/companies",
+      "rate_limit_delay": 0.5,
+      "max_concurrency": 4,
+      "description": "Y Combinator public company directory via official Algolia search backend"
+    },
+    {
+      "id": "crunchbase",
+      "class": "sources.crunchbase.CrunchbaseCollector",
+      "enabled": false,
+      "base_url": "https://www.crunchbase.com/",
+      "rate_limit_delay": 2.0,
+      "max_concurrency": 1,
+      "api_key": null,
+      "description": "Crunchbase Enterprise API (requires CRUNCHBASE_API_KEY; web UI is blocked by Cloudflare Turnstile)"
+    },
+    {
+      "id": "wellfound",
+      "class": "sources.wellfound.WellfoundCollector",
+      "enabled": true,
+      "base_url": "https://wellfound.com/startups",
+      "rate_limit_delay": 1.5,
+      "max_concurrency": 2,
+      "description": "Wellfound startup directory with Next.js SSR Apollo cache extraction"
+    },
+    {
+      "id": "producthunt",
+      "class": "sources.producthunt.ProductHuntCollector",
+      "enabled": true,
+      "base_url": "https://www.producthunt.com/",
+      "rate_limit_delay": 1.0,
+      "max_concurrency": 2,
+      "api_token": null,
+      "description": "Product Hunt official Atom/RSS feed and GraphQL API v2"
+    },
+    {
+      "id": "huggingface",
+      "class": "sources.huggingface.HuggingFaceCollector",
+      "enabled": true,
+      "base_url": "https://huggingface.co/",
+      "rate_limit_delay": 0.5,
+      "max_concurrency": 4,
+      "description": "Hugging Face official public Hub REST API for AI products, models, and spaces"
+    },
+    {
+      "id": "wikidata",
+      "class": "sources.wikidata.WikidataCollector",
+      "enabled": true,
+      "base_url": "https://query.wikidata.org/",
+      "rate_limit_delay": 1.0,
+      "max_concurrency": 2,
+      "description": "Wikidata SPARQL / REST API: Permitted CC0 open alternative for Crunchbase company profiles"
+    }
+  ]
+}

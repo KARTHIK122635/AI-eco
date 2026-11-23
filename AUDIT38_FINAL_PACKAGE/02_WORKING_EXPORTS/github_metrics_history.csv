@@ -1,0 +1,206 @@
+snapshot_id,repo_id,snapshot_timestamp,stars_count,forks_count,change_stars_delta,change_forks_delta,retrieval_status,provenance
+1,jmaasch/itpd,2026-11-21T06:09:12Z,0,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+2,franciscoliu/SAFI,2026-11-21T06:09:12Z,0,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+3,PerfectXu88/PAD,2026-11-21T06:09:12Z,2,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+4,eltzanis/SystemOneAgents,2026-11-21T06:09:12Z,12,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+5,kyutai-labs/aura,2026-11-21T06:09:12Z,16,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+6,DreamTechAI/Direct3D-V3,2026-11-21T06:09:12Z,24,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+7,IlyaGusev/twicetold,2026-11-21T06:09:12Z,1,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+8,yermandy/TwinD,2026-11-21T06:09:12Z,1,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+9,be2rlab/ACCORD,2026-11-21T06:09:12Z,9,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+10,showlab/O2LaF,2026-11-21T06:09:12Z,5,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+11,ZJUSCL/TwinLab-Bench,2026-11-21T06:09:12Z,4,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+12,ernie-research/HiUni,2026-11-21T06:09:12Z,12,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+13,Tencent/LightningMoBA,2026-11-21T06:09:12Z,6,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+14,yaozhang182/inhabitant,2026-11-21T06:09:12Z,1,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+15,Mind2Act/Mind2Act_World,2026-11-21T06:09:12Z,27,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+16,dengzhe-hou/S1CogBench,2026-11-21T06:09:12Z,0,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+17,hzx122/ZeroVLN,2026-11-21T06:09:12Z,20,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+18,XuankunRong/DailySafe,2026-11-21T06:09:12Z,1,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+19,yesiltepe-hidir/PMD,2026-11-21T06:09:12Z,9,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+20,RUCAIBox/AutoMaster,2026-11-21T06:09:12Z,16,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+21,Youngwoo-git/VETO,2026-11-21T06:09:12Z,0,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+22,xt4d/PlayCraft,2026-11-21T06:09:12Z,6,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+23,ztMotaLee/WM_mllm,2026-11-21T06:09:12Z,11,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+24,apple-aiml-research/ml-depth-pro-2,2026-11-21T06:09:12Z,205,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+25,os-cua-framework/TuringSpace,2026-11-21T06:09:12Z,4,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+26,Tencent/WeMM-Video,2026-11-21T06:09:12Z,55,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+27,jhxcho/voda,2026-11-21T06:09:12Z,18,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+28,cactusqq/EgoCaptioner,2026-11-21T06:09:12Z,6,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+29,FrankYang-17/Coda,2026-11-21T06:09:12Z,16,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+30,AIGeeksGroup/WAM-Policy,2026-11-21T06:09:12Z,7,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+31,suho-yoo/VSpark,2026-11-21T06:09:12Z,6,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+32,Tencent/WeVisForensics,2026-11-21T06:09:12Z,48,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+33,naver-ai/unfinished-bench,2026-11-21T06:09:12Z,1,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+34,ideal-lab-sejong/PRISM_T,2026-11-21T06:09:12Z,0,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+35,Mapika/progress-substitutes-data,2026-11-21T06:09:12Z,0,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+36,Yueeeeeeee/MRPD,2026-11-21T06:09:12Z,2,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+37,World-Snapshot/WSMs,2026-11-21T06:09:12Z,9,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+38,AI-sandbox/TabBioMed,2026-11-21T06:09:12Z,23,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+39,Manifestro/kezek,2026-11-21T06:09:12Z,6,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+40,pzy2000/State_Portal,2026-11-21T06:09:12Z,1,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+41,chuangwang123/strideworld,2026-11-21T06:09:12Z,2,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+42,xiaoqian-shen/AVTR,2026-11-21T06:09:12Z,1,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+43,eilamshapira/LightTAR,2026-11-21T06:09:12Z,3,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+44,MAGICLAB-NUS/BiCAT,2026-11-21T06:09:12Z,19,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+45,Shengxiang-Lin/PGPO,2026-11-21T06:09:12Z,157,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+46,middle-chunjie/AnyS1,2026-11-21T06:09:12Z,4,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+47,dualverse-ai/chorus,2026-11-21T06:09:12Z,1,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+48,tuandattt/hintwam_code,2026-11-21T06:09:12Z,4,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+49,agentscope-ai/Piccolo,2026-11-21T06:09:12Z,60,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+50,AlayaLab/WorldRuler,2026-11-21T06:09:12Z,12,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+51,Xalp/LateComer,2026-11-21T06:09:12Z,2,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+52,Whalesong-zrs/RoughCut-Bench,2026-11-21T06:09:12Z,1,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+53,suho-yoo/ReMo,2026-11-21T06:09:12Z,1,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+54,UESTC-Simon/DrawScore,2026-11-21T06:09:12Z,6,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+55,ValueByte-AI/chiron,2026-11-21T06:09:12Z,2,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+56,bruno686/CriticNPU,2026-11-21T06:09:12Z,1,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+57,Afterglow231/Tideway,2026-11-21T06:09:12Z,8,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+58,Carol-lyh/Jeveration,2026-11-21T06:09:12Z,72,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+59,showlab/vae-rhythm,2026-11-21T06:09:12Z,3,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+60,game2player/Game2Player,2026-11-21T06:09:12Z,26,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+61,inclusionAI/CodeWorldModel,2026-11-21T06:09:12Z,159,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+62,davelee-uestc/chord_debiasing_public,2026-11-21T06:09:12Z,0,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+63,yms020615/PROLA,2026-11-21T06:09:12Z,2,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+64,lijinzhao30/ALIVE,2026-11-21T06:09:12Z,30,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv
+65,Sachithx/PACT,2026-11-21T06:09:12Z,0,0,0,0,huggingface_daily_papers,Hugging Face Daily Papers & arXiv API
+66,EVERGi/should_belgians_install_advanced_ems_paper,2026-11-21T06:45:22Z,2,0,0,0,official_github_rest_api,arXiv API
+67,ZiyaoMou/L2D-Expert-Drift,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+68,deeplearningcafe/asuka-fm,2026-11-21T06:45:22Z,3,0,0,0,official_github_rest_api,arXiv API
+69,xuyang-liu16/MemFolder,2026-11-21T06:45:22Z,2,0,0,0,official_github_rest_api,arXiv API
+70,ambroise-b/hisa,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+71,Cosmonaught/Mambaflownp,2026-11-21T06:45:22Z,1,0,0,0,official_github_rest_api,arXiv API
+72,Viacol0916/ClonAct,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+73,Alikbachan/Alikbachan,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+74,omseeth/skill.png,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+75,TankTechnology/SkillBridge,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+76,ADEPT-ORG/FastRoverVLA,2026-11-21T06:45:22Z,1,0,0,0,official_github_rest_api,arXiv API
+77,AI4Bharat/LeFT-activation-transfer,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+78,nari-labs/nari-llama.cpp,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+79,Stef-Martin/E2E-MRE,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+80,nehal-vcu/PhantoMasq,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+81,0sidewalkenforcer0/GenSPARQL,2026-11-21T06:45:22Z,4,0,0,0,official_github_rest_api,arXiv API
+82,alimama-tech/ISGE,2026-11-21T06:45:22Z,2,0,0,0,official_github_rest_api,arXiv API
+83,janghunn/pavesplat,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+84,dipper13579/urbantwin-sim2real-lidar,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+85,SiminChang/Serialization-Tax-in-Shared-Latent-Exchangeable-Decisions,2026-11-21T06:45:22Z,5,0,0,0,official_github_rest_api,arXiv API
+86,harry0021/ForeSeek,2026-11-21T06:45:22Z,1,0,0,0,official_github_rest_api,arXiv API
+87,shadow-posterior/code,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+88,lbn187/MultiPlayerSolver,2026-11-21T06:45:22Z,1,0,0,0,official_github_rest_api,arXiv API
+89,Sofilyzia/Fast-JEPA,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+90,KeryanChelouche/udoppler-ssl,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+91,WHU-USI3DV/WHU-Road3D,2026-11-21T06:45:22Z,12,0,0,0,official_github_rest_api,arXiv API
+92,egowitness/EgoWitness,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+93,IAntoineV/sbd,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+94,yucheng-du/RouteVerify,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+95,shishuyue/AdaptReg,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+96,yuhuan-wu/UNVEIL,2026-11-21T06:45:22Z,4,0,0,0,official_github_rest_api,arXiv API
+97,TransluceAI/PosteriorBench,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+98,liujia99/DACA,2026-11-21T06:45:22Z,2,0,0,0,official_github_rest_api,arXiv API
+99,yucheng-du/interpreting-deepstack-style-vlms,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+100,CASIA-IVA-Lab/VC-VQA,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+101,tbadings/darsy,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+102,changzhiai/AdsNet,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+103,LingoodBoy/CDPG,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+104,Jinhan-Li/WeatherCraft,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+105,PlantPotatoOnMoon/TwoPass,2026-11-21T06:45:22Z,17,0,0,0,official_github_rest_api,arXiv API
+106,Seunghyeok0715/PIVOT2026,2026-11-21T06:45:22Z,1,0,0,0,official_github_rest_api,arXiv API
+107,LitaoGuo/How-Self-Evolution-Reshapes-Skills,2026-11-21T06:45:22Z,1,0,0,0,official_github_rest_api,arXiv API
+108,nimashaklaa/TravelPlanner_Research,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+109,TANGLONG2/Life-IQA-PlusPlus,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+110,HeeSeung-Shin/Brats2026-Goat-HS,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+111,Gen-Verse/WeightCode,2026-11-21T06:45:22Z,12,0,0,0,official_github_rest_api,arXiv API
+112,LigphiDonk/ActMem,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+113,jzdang/RemoteVLPG,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+114,jhlee0619/candor,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+115,hhw11/FamilySpace,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+116,zcablii/HOPD,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+117,sanjari-orb/appsci-bench,2026-11-21T06:45:22Z,0,0,0,0,official_github_rest_api,arXiv API
+118,opatil31/SEANA,2026-11-21T06:45:22Z,1,0,0,0,official_github_rest_api,arXiv API
+119,armanbolatov/fedmars_drivaernet,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+120,YenanLiu/ScaleDiag,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+121,multimodal-ai-lab/CARE,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+122,MiniEggz/llm-as-classifier,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+123,jeonghoon-ad/learning-to-read-events,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+124,Sabina085/madjepa,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+125,liyu2195/blind-spots-travel,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+126,ruijiang81/agentic_multiverse_analysis,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+127,besionisrael/before-choice,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+128,AtlasAnalyticsLab/DualSAE,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+129,mbonizzato/HapBO,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+130,SJSU-CMPE259/AI-Stock-Research-and-Earnings-Assistant,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+131,Kaelyn01/VisAlloc,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+132,shagun8/shadowtransfer,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+133,Chth1z/llm-black-box-model-audit,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+134,HKUDS/Vibe-Trading,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+135,binayksingh/does-action-matter,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+136,sdening/surv-bench-study,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+137,coolsyn2000/CRAW,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+138,Atahanka/SOSM,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+139,multimodal-ai-lab/V-lens,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+140,Deep-LCF/Isabelle-Pool-Server,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+141,austincbaker/A3Bench,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+142,DiffuSpace/Clover-35B-A3B-Preview,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+143,chenkangjie1123/H3Remover,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+144,Lucas-Osco/mspa,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+145,msalman95/DA,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+146,TabibitoQZP/SIGame,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+147,beita6969/BaseRSI,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+148,lyf1212/LightHarness_Code,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+149,LiZhi-CASIA/FBR,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+150,lauritsf/icicle,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+151,step-out/NativeSeg,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+152,rikuhuttunen/psg-gan,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+153,yang031119/MLIE-CoT,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+154,seungyubhan/mint,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+155,thisissyu/cado,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+156,Mhrshd-fllh/ALBoost-FM,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+157,unlayer-ai/automodel,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+158,adrianaryr2004/daily-emotional-wellbeing-analysis,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+159,Mariyaaleem/conformal-wx,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+160,stevendamianakis/autopi,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+161,KotaroHorikawa/AnchorUp,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+162,LHRLAB/KnowledgeClaw,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+163,XylonXu01/SAFI,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+164,SSMa913/NICLab-TRESS,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+165,mever-team/ddm,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+166,FangWD520/TrajWAM,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+167,UEC-InabaLab/CounselTraj,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+168,yamagishi0824/liver-tumor-ddx-ct-fm,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+169,gdfwj/LEDGE,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+170,starsholic/AeroRSI,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+171,nepersoned/lextemporis,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+172,avvas200/efficient-multilingual-nmt-pilot,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+173,zwang-devv/intent-contracts,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+174,laniusnan/ACD,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+175,edward62740/Facet-SLAM,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+176,YXTong17/FedDoG,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+177,facebookresearch/sixthview_benchmark,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+178,kongwoang/GUARD,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+179,potato-kitty/NullTok,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+180,AMDResearch/kiwi,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+181,mrfares11/specdec,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+182,Nischal1011/pivotlora,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+183,jerry66s6/RFBench,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+184,princeton-pli/opd-objectives-analysis,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+185,xingyang-yu/StringQFT,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+186,avivyossef/distortion-free-semantic-watermark,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+187,nleaxy/learned-vs-kinematic-trajectory-prediction,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+188,haihuang-ml/structure-residual,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+189,robustml-eurecom/grace,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+190,step-out/VIVID,2026-11-22T12:00:00+00:00,0,0,0,0,canonical_seed,arXiv API
+191,jmaasch/itpd,2026-11-22T16:00:57.567652+00:00,1,0,1,0,HTTP_200_OK,official_github_rest_api
+192,franciscoliu/SAFI,2026-11-22T16:00:58.092588+00:00,1,0,1,0,HTTP_200_OK,official_github_rest_api
+193,PerfectXu88/PAD,2026-11-22T16:00:58.591685+00:00,4,0,2,0,HTTP_200_OK,official_github_rest_api
+194,eltzanis/SystemOneAgents,2026-11-22T16:00:59.287780+00:00,15,3,3,3,HTTP_200_OK,official_github_rest_api
+195,kyutai-labs/aura,2026-11-22T16:00:59.806115+00:00,30,5,14,5,HTTP_200_OK,official_github_rest_api
+196,DreamTechAI/Direct3D-V3,2026-11-22T16:01:00.401170+00:00,57,3,33,3,HTTP_200_OK,official_github_rest_api
+197,IlyaGusev/twicetold,2026-11-22T16:01:01.036439+00:00,2,0,1,0,HTTP_200_OK,official_github_rest_api
+198,yermandy/TwinD,2026-11-22T16:01:01.976600+00:00,2,0,1,0,HTTP_200_OK,official_github_rest_api
+199,be2rlab/ACCORD,2026-11-22T16:01:02.537034+00:00,68,5,59,5,HTTP_200_OK,official_github_rest_api
+200,showlab/O2LaF,2026-11-22T16:01:03.085425+00:00,7,0,2,0,HTTP_200_OK,official_github_rest_api
+201,ZJUSCL/TwinLab-Bench,2026-11-22T16:01:03.685721+00:00,6,0,2,0,HTTP_200_OK,official_github_rest_api
+202,ernie-research/HiUni,2026-11-22T16:01:04.203919+00:00,15,1,3,1,HTTP_200_OK,official_github_rest_api
+203,Tencent/LightningMoBA,2026-11-22T16:01:04.787127+00:00,6,0,0,0,HTTP_200_OK,official_github_rest_api
+204,yaozhang182/inhabitant,2026-11-22T16:01:05.278890+00:00,2,1,1,1,HTTP_200_OK,official_github_rest_api
+205,Mind2Act/Mind2Act_World,2026-11-22T16:01:05.778548+00:00,37,1,10,1,HTTP_200_OK,official_github_rest_api

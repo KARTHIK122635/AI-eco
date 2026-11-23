@@ -1,0 +1,590 @@
+[2026-11-22 16:57:12,591] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 4949352d4f568f3f6128f398591cd8edac2eba45496c24535edb6c096398b95d
+[2026-11-22 16:57:12,593] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=123c6e26-3c75-40b6-b9ae-b0f71e6d3061, record_id=prelim_startup_6631243200679035785, field=ai_specialization
+[2026-11-22 16:57:14,712] INFO stage3.gemini_enrichment: Result prelim_startup_6631243200679035785 (ai_specialization): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:14,713] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=ef508bc9-ecf1-4b69-a434-5fe63db9cc9e, record_id=prelim_startup_6631243200679035785, field=technologies
+[2026-11-22 16:57:16,979] INFO stage3.gemini_enrichment: Result prelim_startup_6631243200679035785 (technologies): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:16,980] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=4b4460b9-f72a-4cc8-9b33-bf6758f62730, record_id=prelim_startup_4138537468450272463, field=technologies
+[2026-11-22 16:57:18,542] INFO stage3.gemini_enrichment: Result prelim_startup_4138537468450272463 (technologies): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:18,543] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=367d47ad-77ba-43aa-bbfb-1ef9b4718069, record_id=prelim_startup_324069110286089772, field=ai_specialization
+[2026-11-22 16:57:20,394] INFO stage3.gemini_enrichment: Result prelim_startup_324069110286089772 (ai_specialization): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:20,395] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=54f5fc87-1228-44b1-be80-d3df0abcb753, record_id=prelim_startup_324069110286089772, field=technologies
+[2026-11-22 16:57:22,561] INFO stage3.gemini_enrichment: Result prelim_startup_324069110286089772 (technologies): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:22,562] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=b8605ae9-9121-4703-84a5-8125c8d35231, record_id=prelim_startup_7377128274119126472, field=ai_specialization
+[2026-11-22 16:57:24,530] INFO stage3.gemini_enrichment: Result prelim_startup_7377128274119126472 (ai_specialization): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:24,531] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=b4d80563-a0ae-40da-a803-15481459b7c6, record_id=prelim_startup_7377128274119126472, field=technologies
+[2026-11-22 16:57:26,010] INFO stage3.gemini_enrichment: Result prelim_startup_7377128274119126472 (technologies): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:26,011] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=aad3e308-d621-4930-944a-6e47eec9f871, record_id=arxiv_2611_26232, field=methodology
+[2026-11-22 16:57:28,219] INFO stage3.gemini_enrichment: Result arxiv_2611_26232 (methodology): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:28,220] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=cb1123c7-1185-4103-8c92-2e49b7985f97, record_id=arxiv_2611_26239, field=methodology
+[2026-11-22 16:57:29,900] INFO stage3.gemini_enrichment: Result arxiv_2611_26239 (methodology): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:29,901] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=103137ec-4723-4207-bc48-5150390232b6, record_id=arxiv_2611_26239, field=key_contributions
+[2026-11-22 16:57:31,750] INFO stage3.gemini_enrichment: Result arxiv_2611_26239 (key_contributions): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:31,751] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=27d03be3-ba04-4709-a4c1-8b2e3dc3f17f, record_id=arxiv_2611_25604, field=methodology
+[2026-11-22 16:57:33,306] INFO stage3.gemini_enrichment: Result arxiv_2611_25604 (methodology): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:33,307] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=695e254e-928b-454c-ab39-5e015648aaa6, record_id=arxiv_2611_15941, field=methodology
+[2026-11-22 16:57:35,028] INFO stage3.gemini_enrichment: Result arxiv_2611_15941 (methodology): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:35,029] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=129673cf-f6e1-4bf8-8d73-9357a0a76c2e, record_id=arxiv_2611_25200, field=methodology
+[2026-11-22 16:57:37,145] INFO stage3.gemini_enrichment: Result arxiv_2611_25200 (methodology): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:37,146] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=c25248aa-3175-45fc-bd01-d710a883bab4, record_id=arxiv_2611_26627, field=methodology
+[2026-11-22 16:57:39,611] INFO stage3.gemini_enrichment: Result arxiv_2611_26627 (methodology): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:39,612] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=668c218a-17c7-407b-86d8-5e8be2458ae3, record_id=arxiv_2611_23875, field=methodology
+[2026-11-22 16:57:41,144] INFO stage3.gemini_enrichment: Result arxiv_2611_23875 (methodology): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:41,145] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=478ee93d-28cd-4fca-8376-fb42a3f3e21a, record_id=arxiv_2611_21885, field=research_domain
+[2026-11-22 16:57:45,944] INFO stage3.gemini_enrichment: Result arxiv_2611_21885 (research_domain): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:45,946] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=cdfff16f-eda1-49a0-99ae-2f1d1258272e, record_id=arxiv_2611_21885, field=methodology
+[2026-11-22 16:57:49,311] INFO stage3.gemini_enrichment: Result arxiv_2611_21885 (methodology): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:49,312] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=569b4557-452a-4d3c-b05f-66fde42b657b, record_id=arxiv_2611_21053, field=methodology
+[2026-11-22 16:57:52,406] INFO stage3.gemini_enrichment: Result arxiv_2611_21053 (methodology): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:57:52,407] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=50d92481-e311-4f42-8321-5653fe76eff9, record_id=arxiv_2611_25567, field=methodology
+[2026-11-22 16:58:01,694] INFO stage3.gemini_enrichment: Result arxiv_2611_25567 (methodology): val_status=FAILED, rationale=Gemini API execution error: Gemini API Transient Error (HTTP 429): {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.1-flash-lite, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 56.835584974s.",
+    "status": "RESOURCE_EXHAUSTED",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.Help",
+        "links": [
+          {
+            "description": "Learn more about Gemini API quotas",
+            "url": "https://aistudio.google.com/docs/rate-limits"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.QuotaFailure",
+        "violations": [
+          {
+            "description": "Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.",
+            "quotaMetric": "generativelanguage.googleapis.com/generate_content_free_tier_requests",
+            "quotaId": "GenerateRequestsPerMinutePerProjectPerModel-FreeTier",
+            "quotaDimensions": {
+              "model": "gemini-3.1-flash-lite",
+              "location": "global"
+            },
+            "quotaValue": "15"
+          }
+        ]
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.RetryInfo",
+        "retryDelay": "56s"
+      }
+    ]
+  }
+}
+
+[2026-11-22 16:58:01,695] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=b06af772-a32f-46eb-9655-8cc29484a53e, record_id=news_824c03b970f1dc58, field=summary
+[2026-11-22 16:58:05,535] INFO stage3.gemini_enrichment: Result news_824c03b970f1dc58 (summary): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:05,537] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=f1d531bd-5495-4425-a8b1-db6b16109e3e, record_id=news_701a571706ec6c00, field=summary
+[2026-11-22 16:58:07,662] INFO stage3.gemini_enrichment: Result news_701a571706ec6c00 (summary): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:07,663] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=c37d1b7d-87e4-446c-92f9-dfef46320257, record_id=news_4dcb26b5e50b7472, field=summary
+[2026-11-22 16:58:09,520] INFO stage3.gemini_enrichment: Result news_4dcb26b5e50b7472 (summary): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:09,521] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=4f5ca299-81eb-412d-832a-b709f77fae3f, record_id=news_92e2b2f37eb74112, field=summary
+[2026-11-22 16:58:11,794] INFO stage3.gemini_enrichment: Result news_92e2b2f37eb74112 (summary): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:11,796] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=db40b8ff-eaeb-4d73-b0de-0de3fc373bc2, record_id=news_aef632472a5e3af7, field=summary
+[2026-11-22 16:58:13,205] INFO stage3.gemini_enrichment: Result news_aef632472a5e3af7 (summary): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:13,206] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=bbb9bb5d-79e4-483f-aead-ac779535eb87, record_id=news_ec56b5eff9affb1c, field=summary
+[2026-11-22 16:58:15,385] INFO stage3.gemini_enrichment: Result news_ec56b5eff9affb1c (summary): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:15,387] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=013a507a-4ada-44be-b5d4-cf30cd5ba872, record_id=news_5b89a2db7f60ae90, field=summary
+[2026-11-22 16:58:16,664] INFO stage3.gemini_enrichment: Result news_5b89a2db7f60ae90 (summary): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:16,666] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=77c02e0d-6820-4d97-84a8-587c5b72b15b, record_id=news_8ec21efa2c622734, field=summary
+[2026-11-22 16:58:18,470] INFO stage3.gemini_enrichment: Result news_8ec21efa2c622734 (summary): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:18,471] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=733f0b87-fa41-4848-bc6d-d485bc4de3dc, record_id=news_cdc8eef67bc55a0d, field=summary
+[2026-11-22 16:58:20,740] INFO stage3.gemini_enrichment: Result news_cdc8eef67bc55a0d (summary): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:20,741] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=3a3a3110-b719-4587-8674-2c7a5e46df4e, record_id=news_96c7f67bef86f831, field=summary
+[2026-11-22 16:58:22,601] INFO stage3.gemini_enrichment: Result news_96c7f67bef86f831 (summary): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:22,602] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=13d142e4-36e6-4631-8a08-4f9714bd7106, record_id=job_e98b00bb44e6a41d, field=technologies
+[2026-11-22 16:58:24,755] INFO stage3.gemini_enrichment: Result job_e98b00bb44e6a41d (technologies): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:24,756] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=39a0f562-387f-43fd-8f95-bd48651a53ff, record_id=job_66f13e9130efa2e2, field=technologies
+[2026-11-22 16:58:27,291] INFO stage3.gemini_enrichment: Result job_66f13e9130efa2e2 (technologies): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:27,292] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=340a3212-309b-48a2-a2b6-4d52e1b98392, record_id=job_b9465af7e79040f9, field=required_skills
+[2026-11-22 16:58:29,471] INFO stage3.gemini_enrichment: Result job_b9465af7e79040f9 (required_skills): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:29,472] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=ed7a50fa-0c32-457e-9261-b60e4399c66d, record_id=job_b9465af7e79040f9, field=technologies
+[2026-11-22 16:58:31,280] INFO stage3.gemini_enrichment: Result job_b9465af7e79040f9 (technologies): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:31,281] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=d99aa9b4-4c15-4b26-ab28-cbd401fb524f, record_id=job_45c1882c91f1b5d5, field=required_skills
+[2026-11-22 16:58:38,822] INFO stage3.gemini_enrichment: Result job_45c1882c91f1b5d5 (required_skills): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:38,823] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=1541d9dc-7700-4d08-8381-6826f3bd1b14, record_id=job_45c1882c91f1b5d5, field=technologies
+[2026-11-22 16:58:42,744] INFO stage3.gemini_enrichment: Result job_45c1882c91f1b5d5 (technologies): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:42,745] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=1fe4ecb0-b135-489d-8e22-0d4cc3f7d18e, record_id=job_bc685344022df5e7, field=required_skills
+[2026-11-22 16:58:44,656] INFO stage3.gemini_enrichment: Result job_bc685344022df5e7 (required_skills): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:44,657] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=47450c3d-c151-4342-b334-3a0c48780c3e, record_id=job_bc685344022df5e7, field=technologies
+[2026-11-22 16:58:55,422] INFO stage3.gemini_enrichment: Result job_bc685344022df5e7 (technologies): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 16:58:55,424] INFO stage3.gemini_enrichment: Wrote 37 proposals to C:\Users\karth\OneDrive\Documents\Ai Solution data\data\stage3\gemini_enrichment_results.jsonl
+[2026-11-22 16:58:55,427] INFO stage3.gemini_enrichment: Wrote 37 review items to C:\Users\karth\OneDrive\Documents\Ai Solution data\data\stage3\gemini_review_queue.csv
+[2026-11-22 16:58:55,441] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 4949352d4f568f3f6128f398591cd8edac2eba45496c24535edb6c096398b95d (unchanged: True)
+[2026-11-22 16:58:55,442] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\OneDrive\Documents\Ai Solution data\data\stage3\gemini_enrichment_summary.json
+[2026-11-22 17:01:07,904] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 4949352d4f568f3f6128f398591cd8edac2eba45496c24535edb6c096398b95d
+[2026-11-22 17:01:07,906] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=38283cae-8d57-45fc-ae80-047c753dac6b, record_id=prelim_startup_6631243200679035785, field=ai_specialization
+[2026-11-22 17:01:09,791] INFO stage3.gemini_enrichment: Result prelim_startup_6631243200679035785 (ai_specialization): val_status=VERIFIED, rationale=Classification 'Applied AI & Automation' fully supported by evidence.
+[2026-11-22 17:01:13,293] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=df9f9001-8b77-43de-b4d3-9232a5eb62db, record_id=prelim_startup_6631243200679035785, field=technologies
+[2026-11-22 17:01:14,954] INFO stage3.gemini_enrichment: Result prelim_startup_6631243200679035785 (technologies): val_status=VERIFIED, rationale=All 4 list items are directly substantiated by verbatim evidence.
+[2026-11-22 17:01:18,456] INFO stage3.gemini_enrichment: Wrote 2 proposals to C:\Users\karth\OneDrive\Documents\Ai Solution data\data\stage3\gemini_enrichment_results.jsonl
+[2026-11-22 17:01:18,457] INFO stage3.gemini_enrichment: Wrote 2 review items to C:\Users\karth\OneDrive\Documents\Ai Solution data\data\stage3\gemini_review_queue.csv
+[2026-11-22 17:01:18,471] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 4949352d4f568f3f6128f398591cd8edac2eba45496c24535edb6c096398b95d (unchanged: True)
+[2026-11-22 17:01:18,472] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\OneDrive\Documents\Ai Solution data\data\stage3\gemini_enrichment_summary.json
+[2026-11-22 17:01:30,384] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 4949352d4f568f3f6128f398591cd8edac2eba45496c24535edb6c096398b95d
+[2026-11-22 17:01:30,386] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=e0ccb2b6-d06a-43ce-a685-5452a2cc702b, record_id=prelim_startup_6631243200679035785, field=ai_specialization
+[2026-11-22 17:01:32,081] INFO stage3.gemini_enrichment: Result prelim_startup_6631243200679035785 (ai_specialization): val_status=VERIFIED, rationale=Classification 'Applied AI & Automation' fully supported by evidence.
+[2026-11-22 17:01:35,584] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=0c1b9d3a-08da-4fa8-8e58-659a31cad6fa, record_id=prelim_startup_6631243200679035785, field=technologies
+[2026-11-22 17:01:37,587] INFO stage3.gemini_enrichment: Result prelim_startup_6631243200679035785 (technologies): val_status=VERIFIED, rationale=All 4 list items are directly substantiated by verbatim evidence.
+[2026-11-22 17:01:41,089] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=0187c024-f9c7-4f8e-b794-a82a66c77b44, record_id=prelim_startup_4138537468450272463, field=technologies
+[2026-11-22 17:01:42,589] INFO stage3.gemini_enrichment: Result prelim_startup_4138537468450272463 (technologies): val_status=VERIFIED, rationale=All 4 list items are directly substantiated by verbatim evidence.
+[2026-11-22 17:01:46,092] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=fbfbb765-98dd-4990-82e2-092520033ce9, record_id=prelim_startup_324069110286089772, field=ai_specialization
+[2026-11-22 17:01:47,702] INFO stage3.gemini_enrichment: Result prelim_startup_324069110286089772 (ai_specialization): val_status=VERIFIED, rationale=Classification 'Applied AI & Automation' fully supported by evidence.
+[2026-11-22 17:01:51,204] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=e2c798dd-beda-4ba2-b211-7e081b1feec5, record_id=prelim_startup_324069110286089772, field=technologies
+[2026-11-22 17:01:52,989] INFO stage3.gemini_enrichment: Result prelim_startup_324069110286089772 (technologies): val_status=VERIFIED, rationale=All 4 list items are directly substantiated by verbatim evidence.
+[2026-11-22 17:01:56,491] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=ca792b52-dec7-41d8-a972-23491ab291b6, record_id=prelim_startup_7377128274119126472, field=ai_specialization
+[2026-11-22 17:01:58,336] INFO stage3.gemini_enrichment: Result prelim_startup_7377128274119126472 (ai_specialization): val_status=VERIFIED, rationale=Classification 'Foundation Models & LLMs' fully supported by evidence.
+[2026-11-22 17:02:01,838] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=f0856086-4f75-43bc-a34a-f9c30ce073cc, record_id=prelim_startup_7377128274119126472, field=technologies
+[2026-11-22 17:02:04,029] INFO stage3.gemini_enrichment: Result prelim_startup_7377128274119126472 (technologies): val_status=VERIFIED, rationale=All 4 list items are directly substantiated by verbatim evidence.
+[2026-11-22 17:02:07,531] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=ca0d5cd1-0e63-450f-bfc9-22b00016c0e4, record_id=arxiv_2611_26232, field=methodology
+[2026-11-22 17:02:09,005] INFO stage3.gemini_enrichment: Result arxiv_2611_26232 (methodology): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('Iterative Temporal Parent Discovery (ITPD), a constraint-based procedure for causal structure learning on multivariate time series that utilizes a local-to-global learning approach, temporal structural priors, graph partitioning, and the local Markov condition.', ['utilizes'])].
+[2026-11-22 17:02:12,507] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=b23a0dd5-8e66-43b5-a642-509af38b8155, record_id=arxiv_2611_26239, field=methodology
+[2026-11-22 17:02:13,971] INFO stage3.gemini_enrichment: Result arxiv_2611_26239 (methodology): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('State-Aware Fallback Imitation (SAFI), which consists of two stages: (1) fallback target construction, assigning stationary arm commands and consistent gripper targets during prohibited-task demonstrations, and (2) joint policy adaptation, learning these targets alongside original actions of retained tasks.', ['state', 'aware', 'imitation', 'consists', 'assigning', 'during', 'learning'])].
+[2026-11-22 17:02:17,473] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=0316fc20-d590-422c-bd8d-377b881c499f, record_id=arxiv_2611_26239, field=key_contributions
+[2026-11-22 17:02:19,225] INFO stage3.gemini_enrichment: Result arxiv_2611_26239 (key_contributions): val_status=FAILED, rationale=Evidence does not support any items in list. Unsupported items: ['Introduction of State-Aware Fallback Imitation (SAFI) to teach robots explicit alternative responses during prohibited tasks', 'Development of a two-stage approach: fallback target construction and joint policy adaptation', 'Demonstration of reduced prohibited task completion and physical incidents while maintaining retained-task performance'].
+[2026-11-22 17:02:22,727] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=753ea082-5f4e-43b4-9d49-b992ec2048fe, record_id=arxiv_2611_25604, field=methodology
+[2026-11-22 17:02:24,832] INFO stage3.gemini_enrichment: Result arxiv_2611_25604 (methodology): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('Policy-Aware Data Valuation (PAD), a framework that assigns utility to candidate demonstrations by combining scene-level calibration feedback, projected policy gradients, and a regularized approximation of local training geometry.', ['aware', 'data', 'valuation', 'framework', 'assigns', 'utility', 'candidate', 'demonstrations', 'combining'])].
+[2026-11-22 17:02:28,334] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=2a51fdf7-2772-4fa3-b71b-9ab0a6b28f0a, record_id=arxiv_2611_15941, field=methodology
+[2026-11-22 17:02:30,435] INFO stage3.gemini_enrichment: Result arxiv_2611_15941 (methodology): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('Lang-SVG utilizes an explicit tree structure to organize SVG primitives with semantic labels and parent-child relationships.', ['utilizes']), ('The methodology incorporates granularity-controllable and open-vocabulary segmentation priors for hierarchy initialization, multimodal large language models (MLLMs) for semantic labeling, depth-adaptive simplification, Tree-Guided Pruning and Merging for redundancy reduction, and L1-SAM-Prompting for structural completeness and fidelity recovery.', ['methodology', 'hierarchy', 'initialization', 'labeling', 'reduction', 'recovery'])].
+[2026-11-22 17:02:33,936] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=10d3b76c-ee27-4fe3-a892-900d965a9f24, record_id=arxiv_2611_25200, field=methodology
+[2026-11-22 17:02:35,810] INFO stage3.gemini_enrichment: Result arxiv_2611_25200 (methodology): val_status=FAILED, rationale=Semantic Mismatch: Proposed text introduces number/date '318' not supported by evidence.
+[2026-11-22 17:02:39,312] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=9ca75c1a-5f0b-489c-9346-83bd0ddf4e1d, record_id=arxiv_2611_26627, field=methodology
+[2026-11-22 17:02:41,156] INFO stage3.gemini_enrichment: Result arxiv_2611_26627 (methodology): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 17:02:44,658] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=ee9ee6e8-369a-4e15-8207-7d22ff50b82c, record_id=arxiv_2611_23875, field=methodology
+[2026-11-22 17:02:46,178] INFO stage3.gemini_enrichment: Result arxiv_2611_23875 (methodology): val_status=VERIFIED, rationale=Text value is an exact extractive substring of verbatim evidence preserving meaning and context.
+[2026-11-22 17:02:49,680] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=9d11998f-7f1e-47fe-9c36-89a68f7c3845, record_id=arxiv_2611_21885, field=research_domain
+[2026-11-22 17:02:51,288] INFO stage3.gemini_enrichment: Result arxiv_2611_21885 (research_domain): val_status=VERIFIED, rationale=Classification 'Foundation Models & LLMs' fully supported by evidence.
+[2026-11-22 17:02:54,790] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=44ce7b42-68ad-40d5-b548-37fcab25f0ee, record_id=arxiv_2611_21885, field=methodology
+[2026-11-22 17:02:56,820] INFO stage3.gemini_enrichment: Result arxiv_2611_21885 (methodology): val_status=FAILED, rationale=Conditionality Shift Violation: Evidence establishes a conditional or hypothetical claim, but proposed claim asserts an unconditional factual outcome.
+[2026-11-22 17:03:00,323] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=4ab6efd3-fece-4908-a207-be5a97561cb7, record_id=arxiv_2611_21053, field=methodology
+[2026-11-22 17:03:02,575] INFO stage3.gemini_enrichment: Result arxiv_2611_21053 (methodology): val_status=FAILED, rationale=Semantic Contradiction: Proposed claim introduces negation not established in affirmative evidence.
+[2026-11-22 17:03:06,077] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=a54f2ed5-bfd6-4d56-91d1-aa6f2db34cec, record_id=arxiv_2611_25567, field=methodology
+[2026-11-22 17:03:07,914] INFO stage3.gemini_enrichment: Result arxiv_2611_25567 (methodology): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('The paper compares a modular pipeline (separate step identification, temporal localization, and execution verification) to a joint model that predicts all outputs in a single step for online, instruction-conditioned mistake detection in egocentric videos.', ['paper', 'compares', 'online', 'instruction', 'conditioned', 'mistake', 'detection', 'egocentric', 'videos'])].
+[2026-11-22 17:03:11,416] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=b8ffdddf-4df3-4bea-9d84-458b19d4f35e, record_id=news_824c03b970f1dc58, field=summary
+[2026-11-22 17:03:13,161] INFO stage3.gemini_enrichment: Result news_824c03b970f1dc58 (summary): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('The blog post introduces Inkling 2 Mini, a model designed to provide cutting-edge performance for local setups.', ['blog', 'post', 'introduces', 'model', 'designed', 'provide', 'setups'])].
+[2026-11-22 17:03:16,663] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=b0c3d830-5d1c-4be0-87fe-9f2cbdf37261, record_id=news_701a571706ec6c00, field=summary
+[2026-11-22 17:03:18,818] INFO stage3.gemini_enrichment: Result news_701a571706ec6c00 (summary): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('Hugging Face introduces harness adapters, a solution designed to adapt models to a harness to enhance performance and reduce costs.', ['hugging', 'face', 'introduces', 'solution', 'designed', 'models', 'enhance', 'reduce', 'costs'])].
+[2026-11-22 17:03:22,319] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=cbf52afb-b4e4-4618-9b66-6e78c9387a7f, record_id=news_4dcb26b5e50b7472, field=summary
+[2026-11-22 17:03:23,870] INFO stage3.gemini_enrichment: Result news_4dcb26b5e50b7472 (summary): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('The article discusses the development and post-training efficiency of the DaisyRose-27B model.', ['article', 'discusses', 'development', 'model'])].
+[2026-11-22 17:03:27,373] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=f4d7f4f1-7306-4039-bc22-ecdcc2491646, record_id=news_92e2b2f37eb74112, field=summary
+[2026-11-22 17:03:29,648] INFO stage3.gemini_enrichment: Result news_92e2b2f37eb74112 (summary): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('This article explores the reasons why fine-tuning jobs for machine learning models often take longer to complete than what is predicted by FLOP calculations.', ['article', 'explores', 'reasons', 'jobs', 'machine', 'learning', 'models', 'often', 'take', 'complete', 'what', 'predicted', 'flop', 'calculations'])].
+[2026-11-22 17:03:33,150] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=17b647cc-e9b5-4804-ad4e-9d863019d8c7, record_id=news_aef632472a5e3af7, field=summary
+[2026-11-22 17:03:34,677] INFO stage3.gemini_enrichment: Result news_aef632472a5e3af7 (summary): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('This article explores the integration of time-series models within a streamhouse architecture, discussing new frontiers and potential use cases.', ['article', 'explores', 'integration', 'within', 'architecture', 'discussing', 'frontiers', 'potential'])].
+[2026-11-22 17:03:38,178] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=57809164-bf12-4162-a05b-6b6740cc7058, record_id=news_ec56b5eff9affb1c, field=summary
+[2026-11-22 17:03:40,339] INFO stage3.gemini_enrichment: Result news_ec56b5eff9affb1c (summary): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('This article discusses techniques for optimizing Mixture-of-Experts (MoE) model inference, specifically focusing on running a 180B parameter model using 32GB of RAM.', ['article', 'discusses', 'techniques', 'optimizing', 'mixture', 'experts', 'model', 'specifically', 'focusing', 'running', 'parameter', 'model', 'using'])].
+[2026-11-22 17:03:43,841] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=069119a9-187e-4783-8a8d-3a266ccd4436, record_id=news_5b89a2db7f60ae90, field=summary
+[2026-11-22 17:03:46,020] INFO stage3.gemini_enrichment: Result news_5b89a2db7f60ae90 (summary): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('Rumble-2-Flash is an open 0.5B speech model that supports over 40 languages.', ['supports', 'over'])].
+[2026-11-22 17:03:49,522] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=6a80f7cc-26cc-42fb-a476-2dd3d3443f5d, record_id=news_8ec21efa2c622734, field=summary
+[2026-11-22 17:03:51,839] INFO stage3.gemini_enrichment: Result news_8ec21efa2c622734 (summary): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('Hugging Face and OpenRouter have partnered to simplify the process of running open-weight models.', ['partnered', 'simplify', 'process', 'running'])].
+[2026-11-22 17:03:55,342] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=94ac12fc-8768-4fb5-a933-88e9faa92684, record_id=news_cdc8eef67bc55a0d, field=summary
+[2026-11-22 17:03:57,073] INFO stage3.gemini_enrichment: Result news_cdc8eef67bc55a0d (summary): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('This article provides a guide on building a robot pick-and-place simulation using SimReady assets.', ['article', 'provides', 'guide', 'building', 'using'])].
+[2026-11-22 17:04:00,575] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=84e15be8-7332-4e91-b609-8695d3b2d3aa, record_id=news_96c7f67bef86f831, field=summary
+[2026-11-22 17:04:02,292] INFO stage3.gemini_enrichment: Result news_96c7f67bef86f831 (summary): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('XYBench is a tool designed to address the problem behind the question.', ['tool', 'designed', 'address'])].
+[2026-11-22 17:04:05,795] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=ddb79bb2-0aba-4df7-ab4a-cb9ac32ffc43, record_id=job_e98b00bb44e6a41d, field=technologies
+[2026-11-22 17:04:10,804] INFO stage3.gemini_enrichment: Result job_e98b00bb44e6a41d (technologies): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 17:04:14,306] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=f655d6cd-bb50-4c61-ad74-929da9c744c5, record_id=job_66f13e9130efa2e2, field=technologies
+[2026-11-22 17:04:16,732] INFO stage3.gemini_enrichment: Result job_66f13e9130efa2e2 (technologies): val_status=NEEDS_REVIEW, rationale=Partially supported list: 2/3 items supported. Unsupported items: ['LLMs'].
+[2026-11-22 17:04:20,234] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=2eb3827b-4d17-462e-8c6d-3117d97252ef, record_id=job_b9465af7e79040f9, field=required_skills
+[2026-11-22 17:04:22,531] INFO stage3.gemini_enrichment: Result job_b9465af7e79040f9 (required_skills): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 17:04:26,032] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=bfc91e08-8e99-4675-94d7-3d6198cee5ce, record_id=job_b9465af7e79040f9, field=technologies
+[2026-11-22 17:04:28,340] INFO stage3.gemini_enrichment: Result job_b9465af7e79040f9 (technologies): val_status=NEEDS_REVIEW, rationale=Partially supported list: 4/5 items supported. Unsupported items: ['LLM'].
+[2026-11-22 17:04:31,842] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=f87b11b3-38f8-4db7-a05b-a41c8ab8ff34, record_id=job_45c1882c91f1b5d5, field=required_skills
+[2026-11-22 17:04:35,224] INFO stage3.gemini_enrichment: Result job_45c1882c91f1b5d5 (required_skills): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 17:04:38,726] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=88636d41-206b-4f68-874b-75ba33a1ca6c, record_id=job_45c1882c91f1b5d5, field=technologies
+[2026-11-22 17:04:41,090] INFO stage3.gemini_enrichment: Result job_45c1882c91f1b5d5 (technologies): val_status=NEEDS_REVIEW, rationale=Partially supported list: 4/5 items supported. Unsupported items: ['LLM'].
+[2026-11-22 17:04:44,592] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=bb1b68d5-19f5-4132-b618-539163d8838f, record_id=job_bc685344022df5e7, field=required_skills
+[2026-11-22 17:04:47,624] INFO stage3.gemini_enrichment: Result job_bc685344022df5e7 (required_skills): val_status=FAILED, rationale=Rule 2 Violation: Provided evidence could not be traced as a verbatim excerpt of the source text.
+[2026-11-22 17:04:51,126] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=bc087686-6831-48a4-b0a7-917585a82825, record_id=job_bc685344022df5e7, field=technologies
+[2026-11-22 17:04:53,164] INFO stage3.gemini_enrichment: Result job_bc685344022df5e7 (technologies): val_status=NEEDS_REVIEW, rationale=Partially supported list: 4/5 items supported. Unsupported items: ['LLM'].
+[2026-11-22 17:04:56,666] INFO stage3.gemini_enrichment: Wrote 37 proposals to C:\Users\karth\OneDrive\Documents\Ai Solution data\data\stage3\gemini_enrichment_results.jsonl
+[2026-11-22 17:04:56,667] INFO stage3.gemini_enrichment: Wrote 37 review items to C:\Users\karth\OneDrive\Documents\Ai Solution data\data\stage3\gemini_review_queue.csv
+[2026-11-22 17:04:56,681] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 4949352d4f568f3f6128f398591cd8edac2eba45496c24535edb6c096398b95d (unchanged: True)
+[2026-11-22 17:04:56,681] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\OneDrive\Documents\Ai Solution data\data\stage3\gemini_enrichment_summary.json
+[2026-11-22 19:01:00,312] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 19:01:00,313] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=b4708161-8496-4fb7-90b6-c73b0283a3c4, record_id=startup-1, field=ai_focus_area
+[2026-11-22 19:01:00,314] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=FAILED, rationale=Audit 21 Violation: Source version mismatch for startup-1 (expected 6fa585c71afb5988db7572017606f205f668acdd1447785586e0eb84a2cbdafb, got ).
+[2026-11-22 19:01:00,315] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpm3q2mye5\gemini_enrichment_results.jsonl
+[2026-11-22 19:01:00,336] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 19:01:00,338] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=3a013c6e-0590-4a19-aa33-93d7b8c4115b, record_id=startup-1, field=ai_focus_area
+[2026-11-22 19:01:00,339] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=FAILED, rationale=Audit 21 Violation: Source version mismatch for startup-1 (expected 6fa585c71afb5988db7572017606f205f668acdd1447785586e0eb84a2cbdafb, got ).
+[2026-11-22 19:01:00,341] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpbe19urbp\gemini_enrichment_results.jsonl
+[2026-11-22 19:01:40,605] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 19:01:40,606] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=77dc9238-998d-4bb5-b10f-2a817dcb3b48, record_id=startup-1, field=ai_focus_area
+[2026-11-22 19:01:40,606] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=FAILED, rationale=Audit 21 Violation: Source version mismatch for startup-1 (expected 6fa585c71afb5988db7572017606f205f668acdd1447785586e0eb84a2cbdafb, got ).
+[2026-11-22 19:01:40,607] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmp0gdhcq47\gemini_enrichment_results.jsonl
+[2026-11-22 19:01:40,608] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmp0gdhcq47\gemini_review_queue.csv
+[2026-11-22 19:01:40,608] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 19:01:40,609] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmp0gdhcq47\gemini_enrichment_summary.json
+[2026-11-22 19:01:40,617] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 19:01:40,618] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=d0a3e9df-d3b7-47f2-b679-bc5b2813aec0, record_id=startup-1, field=ai_focus_area
+[2026-11-22 19:01:40,619] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=FAILED, rationale=Audit 21 Violation: Source version mismatch for startup-1 (expected 6fa585c71afb5988db7572017606f205f668acdd1447785586e0eb84a2cbdafb, got ).
+[2026-11-22 19:01:40,620] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpiv4zh1az\gemini_enrichment_results.jsonl
+[2026-11-22 19:01:40,621] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpiv4zh1az\gemini_review_queue.csv
+[2026-11-22 19:01:40,621] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 19:01:40,621] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpiv4zh1az\gemini_enrichment_summary.json
+[2026-11-22 19:02:08,355] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 19:02:08,355] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=f07ed474-478a-462f-925a-3d26dd5a0618, record_id=startup-1, field=ai_focus_area
+[2026-11-22 19:02:08,361] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-22 19:02:08,362] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpfdzvwiuc\gemini_enrichment_results.jsonl
+[2026-11-22 19:02:08,362] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpfdzvwiuc\gemini_review_queue.csv
+[2026-11-22 19:02:08,362] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 19:02:08,363] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpfdzvwiuc\gemini_enrichment_summary.json
+[2026-11-22 19:02:08,368] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 19:02:08,369] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=da755611-3366-4996-8807-5fb73626f27d, record_id=startup-1, field=ai_focus_area
+[2026-11-22 19:02:08,370] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-22 19:02:08,370] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpmhf9g_tm\gemini_enrichment_results.jsonl
+[2026-11-22 19:02:08,371] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpmhf9g_tm\gemini_review_queue.csv
+[2026-11-22 19:02:08,371] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 19:02:08,371] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpmhf9g_tm\gemini_enrichment_summary.json
+[2026-11-22 19:02:19,203] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 19:02:19,205] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=16bafb02-0d61-457d-bf1b-71df1917d246, record_id=startup-1, field=ai_focus_area
+[2026-11-22 19:02:19,208] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-22 19:02:19,211] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpsyilogkj\gemini_enrichment_results.jsonl
+[2026-11-22 19:02:19,212] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpsyilogkj\gemini_review_queue.csv
+[2026-11-22 19:02:19,213] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 19:02:19,213] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpsyilogkj\gemini_enrichment_summary.json
+[2026-11-22 19:02:19,231] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 19:02:19,231] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=4f38b0f9-5299-4a32-872b-2d33e0416432, record_id=startup-1, field=ai_focus_area
+[2026-11-22 19:02:19,232] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-22 19:02:19,233] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpso_niren\gemini_enrichment_results.jsonl
+[2026-11-22 19:02:19,234] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpso_niren\gemini_review_queue.csv
+[2026-11-22 19:02:19,236] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 19:02:19,238] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpso_niren\gemini_enrichment_summary.json
+[2026-11-22 19:02:53,627] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 19:02:53,628] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=3d841e82-4e11-43b9-8006-9124cb491855, record_id=startup-1, field=ai_focus_area
+[2026-11-22 19:02:53,631] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-22 19:02:53,633] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpkcsau5lh\gemini_enrichment_results.jsonl
+[2026-11-22 19:02:53,634] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpkcsau5lh\gemini_review_queue.csv
+[2026-11-22 19:02:53,635] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 19:02:53,636] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpkcsau5lh\gemini_enrichment_summary.json
+[2026-11-22 19:02:53,656] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 19:02:53,657] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=f08d1c81-4cf0-4527-8bb1-5ee1eedd054e, record_id=startup-1, field=ai_focus_area
+[2026-11-22 19:02:53,657] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-22 19:02:53,659] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmp3hif2m9g\gemini_enrichment_results.jsonl
+[2026-11-22 19:02:53,660] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmp3hif2m9g\gemini_review_queue.csv
+[2026-11-22 19:02:53,661] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 19:02:53,662] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmp3hif2m9g\gemini_enrichment_summary.json
+[2026-11-22 19:03:09,863] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 19:03:09,864] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=00c8ead0-75a0-46dc-93cc-d3569bc1c964, record_id=startup-1, field=ai_focus_area
+[2026-11-22 19:03:09,874] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-22 19:03:09,876] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpqz9pfsal\gemini_enrichment_results.jsonl
+[2026-11-22 19:03:09,876] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpqz9pfsal\gemini_review_queue.csv
+[2026-11-22 19:03:09,877] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 19:03:09,878] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpqz9pfsal\gemini_enrichment_summary.json
+[2026-11-22 19:03:09,887] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 19:03:09,888] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=e93ad916-e702-4274-a443-58ec4317dae6, record_id=startup-1, field=ai_focus_area
+[2026-11-22 19:03:09,889] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-22 19:03:09,890] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmp1di181jv\gemini_enrichment_results.jsonl
+[2026-11-22 19:03:09,890] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmp1di181jv\gemini_review_queue.csv
+[2026-11-22 19:03:09,891] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 19:03:09,891] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmp1di181jv\gemini_enrichment_summary.json
+[2026-11-22 19:06:52,385] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 19:06:52,386] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=e301c9c9-3392-42f0-972e-c1830518a2f0, record_id=startup-1, field=ai_focus_area
+[2026-11-22 19:06:52,387] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-22 19:06:52,387] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpb6hilc84\gemini_enrichment_results.jsonl
+[2026-11-22 19:06:52,388] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpb6hilc84\gemini_review_queue.csv
+[2026-11-22 19:06:52,388] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 19:06:52,389] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpb6hilc84\gemini_enrichment_summary.json
+[2026-11-22 19:06:52,394] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 19:06:52,395] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=658efcaa-7581-4934-bc75-765afbff3740, record_id=startup-1, field=ai_focus_area
+[2026-11-22 19:06:52,395] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-22 19:06:52,396] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpn_kx5z5k\gemini_enrichment_results.jsonl
+[2026-11-22 19:06:52,396] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpn_kx5z5k\gemini_review_queue.csv
+[2026-11-22 19:06:52,396] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 19:06:52,397] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpn_kx5z5k\gemini_enrichment_summary.json
+[2026-11-22 19:06:53,419] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 19:06:53,420] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=fc65c3a3-b5cb-44ee-a484-67c9a7f7e185, record_id=startup-1, field=ai_focus_area
+[2026-11-22 19:06:53,428] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-22 19:06:53,429] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpk70mklto\gemini_enrichment_results.jsonl
+[2026-11-22 19:06:53,429] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpk70mklto\gemini_review_queue.csv
+[2026-11-22 19:06:53,430] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 19:06:53,430] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpk70mklto\gemini_enrichment_summary.json
+[2026-11-22 19:06:53,439] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 19:06:53,440] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=52357506-a8b6-411b-82a6-ada9c8947586, record_id=startup-1, field=ai_focus_area
+[2026-11-22 19:06:53,440] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-22 19:06:53,441] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmp03ag27sz\gemini_enrichment_results.jsonl
+[2026-11-22 19:06:53,442] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmp03ag27sz\gemini_review_queue.csv
+[2026-11-22 19:06:53,442] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 19:06:53,442] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmp03ag27sz\gemini_enrichment_summary.json
+[2026-11-22 20:04:11,450] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 20:04:11,451] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=3e362bdb-b351-4d1e-964e-d0e5549f8bbf, record_id=startup-1, field=ai_focus_area
+[2026-11-22 20:04:11,452] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-22 20:04:11,453] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmp4skv1r1t\gemini_enrichment_results.jsonl
+[2026-11-22 20:04:11,453] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmp4skv1r1t\gemini_review_queue.csv
+[2026-11-22 20:04:11,453] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 20:04:11,454] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmp4skv1r1t\gemini_enrichment_summary.json
+[2026-11-22 20:04:11,460] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 20:04:11,460] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=c8f52699-46a9-4fad-9136-ff33ba42b2d4, record_id=startup-1, field=ai_focus_area
+[2026-11-22 20:04:11,461] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-22 20:04:11,462] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpmu8gb95v\gemini_enrichment_results.jsonl
+[2026-11-22 20:04:11,462] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpmu8gb95v\gemini_review_queue.csv
+[2026-11-22 20:04:11,462] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 20:04:11,463] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpmu8gb95v\gemini_enrichment_summary.json
+[2026-11-22 20:05:19,705] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 20:05:19,705] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=b800f654-96a2-4e68-a923-16ea50338a03, record_id=startup-1, field=ai_focus_area
+[2026-11-22 20:05:19,706] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-22 20:05:19,707] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpzbsoa1jz\gemini_enrichment_results.jsonl
+[2026-11-22 20:05:19,707] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpzbsoa1jz\gemini_review_queue.csv
+[2026-11-22 20:05:19,708] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 20:05:19,708] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpzbsoa1jz\gemini_enrichment_summary.json
+[2026-11-22 20:05:19,715] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 20:05:19,715] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=b66df586-3bfa-4733-b4a0-4fabdc5b7139, record_id=startup-1, field=ai_focus_area
+[2026-11-22 20:05:19,716] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-22 20:05:19,717] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpuir36kba\gemini_enrichment_results.jsonl
+[2026-11-22 20:05:19,717] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpuir36kba\gemini_review_queue.csv
+[2026-11-22 20:05:19,717] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 20:05:19,718] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpuir36kba\gemini_enrichment_summary.json
+[2026-11-22 20:06:49,760] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 20:06:49,761] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=e8806c04-0cb3-4065-89a0-2534e995b14d, record_id=startup-1, field=ai_focus_area
+[2026-11-22 20:06:49,762] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-22 20:06:49,763] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpwkq9sshr\gemini_enrichment_results.jsonl
+[2026-11-22 20:06:49,763] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpwkq9sshr\gemini_review_queue.csv
+[2026-11-22 20:06:49,763] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 20:06:49,764] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpwkq9sshr\gemini_enrichment_summary.json
+[2026-11-22 20:06:49,773] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 20:06:49,774] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=2dbb13f6-89f9-4d51-a7e5-d7d04f158f83, record_id=startup-1, field=ai_focus_area
+[2026-11-22 20:06:49,774] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-22 20:06:49,775] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpo3_vkn6z\gemini_enrichment_results.jsonl
+[2026-11-22 20:06:49,775] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpo3_vkn6z\gemini_review_queue.csv
+[2026-11-22 20:06:49,776] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 20:06:49,777] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpo3_vkn6z\gemini_enrichment_summary.json
+[2026-11-22 20:45:10,818] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 20:45:10,819] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=802445eb-d978-4764-bd29-aca5011273b9, record_id=startup-1, field=ai_focus_area
+[2026-11-22 20:45:10,821] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-22 20:45:10,821] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpxy6s4j8r\gemini_enrichment_results.jsonl
+[2026-11-22 20:45:10,822] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpxy6s4j8r\gemini_review_queue.csv
+[2026-11-22 20:45:10,822] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 20:45:10,823] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpxy6s4j8r\gemini_enrichment_summary.json
+[2026-11-22 20:45:10,831] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 20:45:10,832] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=ecc74638-dbd7-475d-8a98-af5c82df5f3b, record_id=startup-1, field=ai_focus_area
+[2026-11-22 20:45:10,833] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-22 20:45:10,834] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpkr233p5b\gemini_enrichment_results.jsonl
+[2026-11-22 20:45:10,834] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpkr233p5b\gemini_review_queue.csv
+[2026-11-22 20:45:10,834] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 20:45:10,835] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpkr233p5b\gemini_enrichment_summary.json
+[2026-11-22 21:34:09,417] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 21:34:09,418] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=48298219-d5d5-4141-be60-4474580ed669, record_id=startup-1, field=ai_focus_area
+[2026-11-22 21:34:09,419] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-22 21:34:09,419] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmp9ncu67qf\gemini_enrichment_results.jsonl
+[2026-11-22 21:34:09,420] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmp9ncu67qf\gemini_review_queue.csv
+[2026-11-22 21:34:09,420] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 21:34:09,420] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmp9ncu67qf\gemini_enrichment_summary.json
+[2026-11-22 21:34:09,426] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-22 21:34:09,426] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=94a5d2a0-59b3-4d7f-9bdb-b7b1010b95cf, record_id=startup-1, field=ai_focus_area
+[2026-11-22 21:34:09,427] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-22 21:34:09,427] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpgyhp4_j1\gemini_enrichment_results.jsonl
+[2026-11-22 21:34:09,428] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpgyhp4_j1\gemini_review_queue.csv
+[2026-11-22 21:34:09,428] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-22 21:34:09,429] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpgyhp4_j1\gemini_enrichment_summary.json
+[2026-11-23 01:44:00,523] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 01:44:00,524] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=20b3fdba-fa96-4043-ba4e-89cf5135d638, record_id=startup-1, field=ai_focus_area
+[2026-11-23 01:44:00,525] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-23 01:44:00,526] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpfvvtv5zd\gemini_enrichment_results.jsonl
+[2026-11-23 01:44:00,527] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpfvvtv5zd\gemini_review_queue.csv
+[2026-11-23 01:44:00,527] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 01:44:00,528] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpfvvtv5zd\gemini_enrichment_summary.json
+[2026-11-23 01:44:00,535] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 01:44:00,535] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=5ddddad9-1ef7-4252-93d2-f52c0f160378, record_id=startup-1, field=ai_focus_area
+[2026-11-23 01:44:00,536] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-23 01:44:00,536] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmp1qjzz0io\gemini_enrichment_results.jsonl
+[2026-11-23 01:44:00,537] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmp1qjzz0io\gemini_review_queue.csv
+[2026-11-23 01:44:00,537] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 01:44:00,538] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmp1qjzz0io\gemini_enrichment_summary.json
+[2026-11-23 02:04:31,471] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 02:04:31,471] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=0c9b9141-5cb8-4f72-bad9-91a692f1f637, record_id=startup-1, field=ai_focus_area
+[2026-11-23 02:04:31,472] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-23 02:04:31,473] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpcop2mwl2\gemini_enrichment_results.jsonl
+[2026-11-23 02:04:31,473] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpcop2mwl2\gemini_review_queue.csv
+[2026-11-23 02:04:31,474] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 02:04:31,474] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpcop2mwl2\gemini_enrichment_summary.json
+[2026-11-23 02:04:31,480] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 02:04:31,480] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=0ec27a89-7039-410e-908e-fe41d3d716d5, record_id=startup-1, field=ai_focus_area
+[2026-11-23 02:04:31,481] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-23 02:04:31,481] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmp36qse0f4\gemini_enrichment_results.jsonl
+[2026-11-23 02:04:31,481] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmp36qse0f4\gemini_review_queue.csv
+[2026-11-23 02:04:31,482] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 02:04:31,482] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmp36qse0f4\gemini_enrichment_summary.json
+[2026-11-23 02:05:57,405] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 02:05:57,406] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=6c4acaf1-bff2-4114-a139-630e208248c4, record_id=startup-1, field=ai_focus_area
+[2026-11-23 02:05:57,406] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-23 02:05:57,407] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmp5boo3d0f\gemini_enrichment_results.jsonl
+[2026-11-23 02:05:57,408] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmp5boo3d0f\gemini_review_queue.csv
+[2026-11-23 02:05:57,408] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 02:05:57,408] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmp5boo3d0f\gemini_enrichment_summary.json
+[2026-11-23 02:05:57,414] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 02:05:57,414] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=72df26fa-288d-4ec6-9fd6-8f315dac4275, record_id=startup-1, field=ai_focus_area
+[2026-11-23 02:05:57,415] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-23 02:05:57,416] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpz2quep5q\gemini_enrichment_results.jsonl
+[2026-11-23 02:05:57,416] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpz2quep5q\gemini_review_queue.csv
+[2026-11-23 02:05:57,416] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 02:05:57,417] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpz2quep5q\gemini_enrichment_summary.json
+[2026-11-23 02:06:28,795] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 02:06:28,796] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=c1a398b1-2196-408c-b656-88652082a143, record_id=startup-1, field=ai_focus_area
+[2026-11-23 02:06:28,797] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-23 02:06:28,797] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmptrpp6c1s\gemini_enrichment_results.jsonl
+[2026-11-23 02:06:28,798] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmptrpp6c1s\gemini_review_queue.csv
+[2026-11-23 02:06:28,798] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 02:06:28,799] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmptrpp6c1s\gemini_enrichment_summary.json
+[2026-11-23 02:06:28,804] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 02:06:28,805] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=fb395607-9df0-4a95-a6bd-4fca7cb76669, record_id=startup-1, field=ai_focus_area
+[2026-11-23 02:06:28,806] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-23 02:06:28,806] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpi61uqv1f\gemini_enrichment_results.jsonl
+[2026-11-23 02:06:28,807] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpi61uqv1f\gemini_review_queue.csv
+[2026-11-23 02:06:28,807] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 02:06:28,807] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpi61uqv1f\gemini_enrichment_summary.json
+[2026-11-23 02:31:26,451] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 02:31:26,452] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=351fbd57-19fa-4df0-9744-b44ab7d05ba5, record_id=startup-1, field=ai_focus_area
+[2026-11-23 02:31:26,453] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-23 02:31:26,454] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpp7dbl3i8\gemini_enrichment_results.jsonl
+[2026-11-23 02:31:26,454] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpp7dbl3i8\gemini_review_queue.csv
+[2026-11-23 02:31:26,454] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 02:31:26,455] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpp7dbl3i8\gemini_enrichment_summary.json
+[2026-11-23 02:31:26,460] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 02:31:26,461] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=76b31237-34f8-497d-8876-746bca21e2e9, record_id=startup-1, field=ai_focus_area
+[2026-11-23 02:31:26,461] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-23 02:31:26,462] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmp_exe6q1n\gemini_enrichment_results.jsonl
+[2026-11-23 02:31:26,462] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmp_exe6q1n\gemini_review_queue.csv
+[2026-11-23 02:31:26,462] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 02:31:26,463] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmp_exe6q1n\gemini_enrichment_summary.json
+[2026-11-23 02:33:32,347] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 02:33:32,348] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=0cad25f3-d277-4b04-b196-72e3d53e5f67, record_id=startup-1, field=ai_focus_area
+[2026-11-23 02:33:32,349] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-23 02:33:32,350] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmp2pv425en\gemini_enrichment_results.jsonl
+[2026-11-23 02:33:32,350] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmp2pv425en\gemini_review_queue.csv
+[2026-11-23 02:33:32,350] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 02:33:32,351] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmp2pv425en\gemini_enrichment_summary.json
+[2026-11-23 02:33:32,356] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 02:33:32,357] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=766a3ca9-9b48-49ac-88dd-58c5e0e1d1f8, record_id=startup-1, field=ai_focus_area
+[2026-11-23 02:33:32,357] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-23 02:33:32,358] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpurykkcdv\gemini_enrichment_results.jsonl
+[2026-11-23 02:33:32,358] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpurykkcdv\gemini_review_queue.csv
+[2026-11-23 02:33:32,358] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 02:33:32,359] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpurykkcdv\gemini_enrichment_summary.json
+[2026-11-23 02:41:31,632] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 02:41:31,633] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=ba5a7565-f962-42ec-897b-4a71fc9da708, record_id=startup-1, field=ai_focus_area
+[2026-11-23 02:41:31,633] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-23 02:41:31,634] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpxpaq7mwc\gemini_enrichment_results.jsonl
+[2026-11-23 02:41:31,635] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpxpaq7mwc\gemini_review_queue.csv
+[2026-11-23 02:41:31,635] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 02:41:31,635] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpxpaq7mwc\gemini_enrichment_summary.json
+[2026-11-23 02:41:31,641] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 02:41:31,642] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=47b64bb5-a4d8-4b50-8c18-6bbc23b29f28, record_id=startup-1, field=ai_focus_area
+[2026-11-23 02:41:31,642] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-23 02:41:31,643] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpl47_j8g_\gemini_enrichment_results.jsonl
+[2026-11-23 02:41:31,643] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpl47_j8g_\gemini_review_queue.csv
+[2026-11-23 02:41:31,643] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 02:41:31,644] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpl47_j8g_\gemini_enrichment_summary.json
+[2026-11-23 02:59:23,927] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 02:59:23,928] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=0d1d2433-b17b-406f-954a-f8c5c02eb576, record_id=startup-1, field=ai_focus_area
+[2026-11-23 02:59:23,929] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-23 02:59:23,929] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmp11zrrvu0\gemini_enrichment_results.jsonl
+[2026-11-23 02:59:23,930] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmp11zrrvu0\gemini_review_queue.csv
+[2026-11-23 02:59:23,930] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 02:59:23,931] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmp11zrrvu0\gemini_enrichment_summary.json
+[2026-11-23 02:59:23,936] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 02:59:23,937] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=79290ef0-23b4-4b07-b4f7-6df69bfb59e7, record_id=startup-1, field=ai_focus_area
+[2026-11-23 02:59:23,937] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-23 02:59:23,938] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmp452b5c1t\gemini_enrichment_results.jsonl
+[2026-11-23 02:59:23,938] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmp452b5c1t\gemini_review_queue.csv
+[2026-11-23 02:59:23,939] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 02:59:23,939] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmp452b5c1t\gemini_enrichment_summary.json
+[2026-11-23 03:19:28,137] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 03:19:28,138] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=8817d29a-8f2d-4839-b90f-4f0c0b526597, record_id=startup-1, field=ai_focus_area
+[2026-11-23 03:19:28,140] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-23 03:19:28,141] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmp149plij2\gemini_enrichment_results.jsonl
+[2026-11-23 03:19:28,141] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmp149plij2\gemini_review_queue.csv
+[2026-11-23 03:19:28,141] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 03:19:28,142] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmp149plij2\gemini_enrichment_summary.json
+[2026-11-23 03:19:28,150] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 03:19:28,151] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=d5f727ee-f9a7-459d-90c3-c91f546aed52, record_id=startup-1, field=ai_focus_area
+[2026-11-23 03:19:28,152] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-23 03:19:28,152] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpn3szqt0q\gemini_enrichment_results.jsonl
+[2026-11-23 03:19:28,153] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpn3szqt0q\gemini_review_queue.csv
+[2026-11-23 03:19:28,153] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 03:19:28,154] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpn3szqt0q\gemini_enrichment_summary.json
+[2026-11-23 03:51:08,033] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 03:51:08,035] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=6d72d32a-4670-428f-b81c-e85da7c496dd, record_id=startup-1, field=ai_focus_area
+[2026-11-23 03:51:08,036] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-23 03:51:08,037] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmp59d5gyr3\gemini_enrichment_results.jsonl
+[2026-11-23 03:51:08,037] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmp59d5gyr3\gemini_review_queue.csv
+[2026-11-23 03:51:08,037] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 03:51:08,038] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmp59d5gyr3\gemini_enrichment_summary.json
+[2026-11-23 03:51:08,045] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 03:51:08,047] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=f5539697-9398-4b05-85ec-a48e4cc037cc, record_id=startup-1, field=ai_focus_area
+[2026-11-23 03:51:08,047] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-23 03:51:08,048] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpnuibuxda\gemini_enrichment_results.jsonl
+[2026-11-23 03:51:08,049] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpnuibuxda\gemini_review_queue.csv
+[2026-11-23 03:51:08,049] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 03:51:08,049] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpnuibuxda\gemini_enrichment_summary.json
+[2026-11-23 04:50:36,489] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 04:50:36,491] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=45941095-c8f6-46f4-8dc3-4f03d881dba6, record_id=startup-1, field=ai_focus_area
+[2026-11-23 04:50:36,492] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-23 04:50:36,493] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpio4zr85z\gemini_enrichment_results.jsonl
+[2026-11-23 04:50:36,494] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpio4zr85z\gemini_review_queue.csv
+[2026-11-23 04:50:36,494] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 04:50:36,495] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpio4zr85z\gemini_enrichment_summary.json
+[2026-11-23 04:50:36,503] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 04:50:36,503] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=40061138-909a-4c8c-a794-e30609a8d589, record_id=startup-1, field=ai_focus_area
+[2026-11-23 04:50:36,504] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-23 04:50:36,504] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmptvx2hxug\gemini_enrichment_results.jsonl
+[2026-11-23 04:50:36,505] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmptvx2hxug\gemini_review_queue.csv
+[2026-11-23 04:50:36,505] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 04:50:36,506] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmptvx2hxug\gemini_enrichment_summary.json
+[2026-11-23 05:27:55,454] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 05:27:55,456] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=43619265-68fe-4d9f-b368-6753983c052c, record_id=startup-1, field=ai_focus_area
+[2026-11-23 05:27:55,457] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-23 05:27:55,458] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpmn4pdkk_\gemini_enrichment_results.jsonl
+[2026-11-23 05:27:55,458] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpmn4pdkk_\gemini_review_queue.csv
+[2026-11-23 05:27:55,458] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 05:27:55,459] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpmn4pdkk_\gemini_enrichment_summary.json
+[2026-11-23 05:27:55,466] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 05:27:55,467] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=b56daae7-13a8-4ea6-bc45-dd08dd5d9d10, record_id=startup-1, field=ai_focus_area
+[2026-11-23 05:27:55,467] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-23 05:27:55,468] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmptit9gjtf\gemini_enrichment_results.jsonl
+[2026-11-23 05:27:55,468] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmptit9gjtf\gemini_review_queue.csv
+[2026-11-23 05:27:55,469] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 05:27:55,469] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmptit9gjtf\gemini_enrichment_summary.json
+[2026-11-23 05:55:47,690] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 05:55:47,691] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=a7bd3d59-74d3-4a2b-af63-b9e8ecf382a8, record_id=startup-1, field=ai_focus_area
+[2026-11-23 05:55:47,693] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-23 05:55:47,693] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpdib164z1\gemini_enrichment_results.jsonl
+[2026-11-23 05:55:47,694] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpdib164z1\gemini_review_queue.csv
+[2026-11-23 05:55:47,694] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 05:55:47,695] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpdib164z1\gemini_enrichment_summary.json
+[2026-11-23 05:55:47,701] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 05:55:47,701] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=0de2202b-172d-4df8-99b4-3efda24c83ca, record_id=startup-1, field=ai_focus_area
+[2026-11-23 05:55:47,702] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-23 05:55:47,702] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmptq5wojpu\gemini_enrichment_results.jsonl
+[2026-11-23 05:55:47,703] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmptq5wojpu\gemini_review_queue.csv
+[2026-11-23 05:55:47,703] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 05:55:47,704] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmptq5wojpu\gemini_enrichment_summary.json
+[2026-11-23 05:57:29,843] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 05:57:29,844] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=b5f64b42-4983-4738-a1e1-b0e24bc4fd4f, record_id=startup-1, field=ai_focus_area
+[2026-11-23 05:57:29,845] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-23 05:57:29,845] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpdk4_r9z1\gemini_enrichment_results.jsonl
+[2026-11-23 05:57:29,846] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpdk4_r9z1\gemini_review_queue.csv
+[2026-11-23 05:57:29,846] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 05:57:29,846] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpdk4_r9z1\gemini_enrichment_summary.json
+[2026-11-23 05:57:29,852] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 05:57:29,852] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=bb897c34-65bb-418e-9d86-4395f3b3a4e0, record_id=startup-1, field=ai_focus_area
+[2026-11-23 05:57:29,853] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-23 05:57:29,853] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpxrkm7ab6\gemini_enrichment_results.jsonl
+[2026-11-23 05:57:29,854] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpxrkm7ab6\gemini_review_queue.csv
+[2026-11-23 05:57:29,854] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 05:57:29,854] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpxrkm7ab6\gemini_enrichment_summary.json
+[2026-11-23 14:14:44,440] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 14:14:44,441] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=ebb74dcf-519e-4653-b919-fedf7160a30b, record_id=startup-1, field=ai_focus_area
+[2026-11-23 14:14:44,442] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Free-text value contains unsupported claims or fabricated entities: [('AI Safety and Alignment', ['alignment'])].
+[2026-11-23 14:14:44,442] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpyfvbswv3\gemini_enrichment_results.jsonl
+[2026-11-23 14:14:44,443] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpyfvbswv3\gemini_review_queue.csv
+[2026-11-23 14:14:44,443] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 14:14:44,443] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpyfvbswv3\gemini_enrichment_summary.json
+[2026-11-23 14:14:44,449] INFO stage3.gemini_enrichment: Pre-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2
+[2026-11-23 14:14:44,449] INFO stage3.gemini_enrichment: Initiating Gemini API call: request_id=aefbc569-5174-4689-aea6-67984081830c, record_id=startup-1, field=ai_focus_area
+[2026-11-23 14:14:44,449] INFO stage3.gemini_enrichment: Result startup-1 (ai_focus_area): val_status=NEEDS_REVIEW, rationale=Duplication Safeguard: Proposed value 'Applied AI & Automation' duplicates existing ai_focus_area ('Applied AI & Automation'). No new enrichment achieved.
+[2026-11-23 14:14:44,450] INFO stage3.gemini_enrichment: Wrote 1 proposals to C:\Users\karth\AppData\Local\Temp\tmpn5or5tor\gemini_enrichment_results.jsonl
+[2026-11-23 14:14:44,451] INFO stage3.gemini_enrichment: Wrote 1 review items to C:\Users\karth\AppData\Local\Temp\tmpn5or5tor\gemini_review_queue.csv
+[2026-11-23 14:14:44,451] INFO stage3.gemini_enrichment: Post-execution database SHA-256: 94de68830c67b2c0fd189a1a6fd35b6717ee60ade98c4448f3ac1787a6cfd8d2 (unchanged: True)
+[2026-11-23 14:14:44,451] INFO stage3.gemini_enrichment: Wrote summary to C:\Users\karth\AppData\Local\Temp\tmpn5or5tor\gemini_enrichment_summary.json

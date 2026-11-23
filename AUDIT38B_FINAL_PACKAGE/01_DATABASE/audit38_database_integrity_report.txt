@@ -1,0 +1,62 @@
+================================================================================
+   AUDIT 38A: AUTHORITATIVE DATABASE INTEGRITY REPORT
+================================================================================
+Generated At: 2026-11-22T23:55:00.623878+00:00
+Evaluation Host: Python SQLite Engine
+
+1. CRYPTOGRAPHIC INTEGRITY VERIFICATION
+--------------------------------------------------------------------------------
+Canonical Database:        data/normalized/ai_ecosystem.db
+Canonical SHA-256:         4949352d4f568f3f6128f398591cd8edac2eba45496c24535edb6c096398b95d
+Canonical Baseline Status: MATCH (Byte-identical, 6,745 records)
+
+Authentic Audit 19 DB:     source/audit19_original_database.db
+Audit 19 SHA-256:          1958c59f1a02e5a4bd274f114fdcfdd40942239f518eb662119962a263c84d4d
+Audit 19 Baseline Status:  MATCH (Byte-identical, 366 records)
+
+Working Database:          data/working/rolling_ai_ecosystem.db
+Working DB SHA-256:        cbc1814cf3c6546a4dfa1d2e731648aead070b133b38892ddd599a6e385c2127
+SQLite Integrity Check:    ok
+
+2. TABLE RECORD INVENTORY (EXACT COUNTS)
+--------------------------------------------------------------------------------
+  Table ai_jobs                     :   1963 records
+  Table ai_news                     :   1138 records
+  Table ai_products                 :   1316 records
+  Table ai_research_papers          :   1060 records
+  Table ai_startups                 :   1307 records
+  Table collection_logs             :      6 records
+  Table enrichment_proposals        :     20 records
+  Table github_metrics_history      :    205 records
+  Table github_repositories         :    190 records
+  Table sqlite_sequence             :      1 records
+
+3. JOB STATUS & VACANCY LIFECYCLE BREAKDOWN
+--------------------------------------------------------------------------------
+job_status distribution:
+  AGGREGATOR_LISTED           :    431 records
+  CLOSED                      :      1 records
+  EMPLOYER_CONFIRMED_OPEN     :   1531 records
+
+vacancy_status distribution:
+  ACTIVE                      :   1404 records
+  CLOSED                      :      1 records
+  EXPIRED                     :    127 records
+  SOURCE_LISTED               :    431 records
+
+4. ENRICHMENT PROPOSALS AUDIT
+--------------------------------------------------------------------------------
+  Proposal Status PENDING_APPROVAL    :     20 proposals
+
+5. COLLECTION LOGS RECORDED (6 ROWS)
+--------------------------------------------------------------------------------
+  Run ID: recovery_20261122_212554_7ee642 | Type: STAGE_LEVEL_RECOVERY | Status: COMPLETED | Start: 2026-11-22T21:25:54.962115+00:00 | End: None
+  Run ID: recovery_20261122_212843_ceea58 | Type: STAGE_LEVEL_RECOVERY | Status: COMPLETED | Start: 2026-11-22T21:28:43.395098+00:00 | End: None
+  Run ID: recovery_20261122_214850_70aadd | Type: STAGE_LEVEL_RECOVERY | Status: COMPLETED | Start: 2026-11-22T21:48:50.144532+00:00 | End: None
+  Run ID: recovery_20261122_222028_907f6c | Type: STAGE_LEVEL_RECOVERY | Status: COMPLETED | Start: 2026-11-22T22:20:28.409570+00:00 | End: None
+  Run ID: recovery_20261122_231953_3f2e22 | Type: STAGE_LEVEL_RECOVERY | Status: COMPLETED | Start: 2026-11-22T23:19:53.823421+00:00 | End: 2026-11-22T23:19:53.818479+00:00
+  Run ID: run_20261122_150000_221724 | Type: ROUTINE_DAILY_INCREMENTAL | Status: COMPLETED | Start: 2026-11-22T15:00:00+00:00 | End: 2026-11-22T16:01:06.218004+00:00
+
+================================================================================
+   VERIFICATION RESULT: ALL TABLE COUNTS AND HASHES 100% RECONCILED
+================================================================================

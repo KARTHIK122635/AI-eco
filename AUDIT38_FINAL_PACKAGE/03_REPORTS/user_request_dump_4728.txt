@@ -1,0 +1,9 @@
+Created At: 2026-11-22T12:41:30+05:30
+Completed At: 2026-11-22T12:41:31+05:30
+Created At: 2026-11-22T12:41:30+05:30
+Completed At: 2026-11-22T12:41:31+05:30
+Command exited with code 0.
+
+Command output:
+Exported legacy history to reports/legacy_history_export.json (14 tables).
+Generated preservation report at reports/history_preservation_report.md.

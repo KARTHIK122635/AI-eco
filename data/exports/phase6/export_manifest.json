@@ -1,0 +1,43 @@
+{
+  "export_metadata": {
+    "phase": "PHASE_VI_LOCAL_DASHBOARD_EXPORT",
+    "export_timestamp_utc": "2026-11-23T11:13:52.107726+00:00",
+    "source_database_path": "data\\working\\phase5_github_candidate.db",
+    "source_database_sha256": "dfa04c1b43204db50b998a34884a12ab7f48d9911dd0a3c07c3824a04711735a",
+    "export_directory": "data\\exports\\phase6",
+    "sanitization_applied": "FORMULA_INJECTION_DEFENSE_AND_NULL_NORMALIZATION"
+  },
+  "record_counts": {
+    "github_repositories": 192,
+    "github_metrics": 210,
+    "github_associations": 192,
+    "github_analytics": 47,
+    "total_exported_tabular_rows": 641
+  },
+  "exported_files": {
+    "github_repositories.csv": {
+      "path": "data\\exports\\phase6\\github_repositories.csv",
+      "rows": 192,
+      "sha256": "b944f517c1c9802b76985aea60bf97d2d37c34b0df15c5138a64de113d8d0f85"
+    },
+    "github_metrics.csv": {
+      "path": "data\\exports\\phase6\\github_metrics.csv",
+      "rows": 210,
+      "sha256": "84ccc419287db6794ed9f71f676108cb1fe20bfe2078a0ab33ea50395985fe50"
+    },
+    "github_associations.csv": {
+      "path": "data\\exports\\phase6\\github_associations.csv",
+      "rows": 192,
+      "sha256": "f739d96fe6b3566aabc5e8b14466351721bfc420ce061147817fa0be6575e942"
+    },
+    "github_analytics.csv": {
+      "path": "data\\exports\\phase6\\github_analytics.csv",
+      "rows": 47,
+      "sha256": "6ef4c4795eda2db2b7c1e02e9e30e278c7a7685964367db3dc5096a1983c2548"
+    },
+    "dashboard_kpis.json": {
+      "path": "data\\exports\\phase6\\dashboard_kpis.json",
+      "sha256": "e228ed0ac071f19d085a2aed1fcaf271f82b08f52b377cf0176feb86c84f5b9e"
+    }
+  }
+}

@@ -1,0 +1,431 @@
+<USER_REQUEST>
+# PHASE II — STAGE 3: AUDIT 23
+## Critical Corrections, Historical Recovery & Independent Audit Submission
+
+### ROLE
+
+Act as a senior Python engineer, data integrity specialist, database auditor, and AI/LLM pipeline engineer.
+
+You are continuing the Phase II AI Ecosystem Data Acquisition and Enrichment project.
+
+Audit 22 was independently reviewed. Several critical defects were identified. Your task is to correct those defects, execute comprehensive verification, and prepare a complete physical ZIP package containing all files required for an independent Audit 23 review by ChatGPT.
+
+**Do not claim Stage 3 approval. Only the independent reviewer can approve it.**
+
+---
+
+# PART 1 — AUDIT 22 FINDINGS TO ADDRESS
+
+The independent review identified these issues:
+
+### 1. Historical record loss
+
+The original Audit 19 database contained 366 records in `enrichment_audit_log`.
+
+The Audit 22 database contains only 66 records in that table and its corresponding backup.
+
+Only 42 of the original 366 record/entity/field combinations were found in the current database or backups.
+
+The other 324 combinations were not accounted for.
+
+There is also a discrepancy between:
+- `enrichment_audit_log`
+- `enrichment_audit_log_backup_20261122_054906`
+
+Both contain 66 rows, but only 29 rows were identical.
+
+**Required action:**
+
+- Locate the actual original Audit 19 database.
+- Recover the original 366 records.
+- Preserve all original values and identifiers.
+- Do not fabricate missing records.
+- Preserve Audit 20, Audit 21 and Audit 22 records separately.
+- Preserve all 169 newer attempts reported in Audit 22.
+- Reconcile every original Audit 19 row individually.
+- Create a CSV containing all 366 original records and their recovery status.
+- Explain every missing or unrecoverable record.
+- Compare all historical backup tables row by row.
+
+If the original Audit 19 database cannot be found, do not reconstruct it from memory or invent its contents. Report the limitation and request the missing original database.
+
+### 2. Python import defect
+
+In `core/enrichment/schemas.py`, `Set` was used in a type annotation but was missing from the imports.
+
+Fix this defect and inspect the entire project for similar missing imports.
+
+Verify that all modules import successfully without monkeypatching.
+
+### 3. Semantic validator context defect
+
+The validator incorrectly applies negation, conditionality, and historical-status checks across an entire evidence excerpt.
+
+It must evaluate the relationship between the proposed claim and the relevant supporting sentence or clause.
+
+Add these regression cases:
+
+**Case A**
+
+Evidence:
+"The company does not disclose revenue. Its platform supports Python."
+
+Proposed claim:
+"Its platform supports Python."
+
+Expected:
+Must not be rejected because of unrelated negation.
+
+**Case B**
+
+Evidence:
+"If requested, the service provides on-premise deployment. The product supports Python."
+
+Proposed claim:
+"The product supports Python."
+
+Expected:
+Must not be rejected because of an unrelated conditional statement.
+
+**Case C**
+
+Evidence:
+"The company previously sold hardware. Its current software supports Python."
+
+Proposed claim:
+"Its current software supports Python."
+
+Expected:
+Must not be rejected because of an unrelated historical statement.
+
+Retain all 12 existing Audit 22 adversarial tests.
+
+Add further cases for:
+- Double negation
+- Indirect negation
+- Multiple sentences and clauses
+- Quantifier changes
+- Subject/object reversal
+- Active/passive voice reversal
+- Conditionality
+- Historical versus current status
+- Unsupported causal statements
+- Unsupported numerical claims
+- Conflicting source statements
+- Qualifiers and exceptions
+
+Uncertain claims must never be automatically marked VERIFIED.
+
+### 4. Independent verifier defects
+
+Repair the independent verification script.
+
+It must:
+
+- Compare complete 64-character SHA-256 hashes.
+- Compare every shared JSONL/SQLite field.
+- Compare every shared CSV/SQLite field.
+- Validate nulls, nested structures, lists and empty values.
+- Verify attempt IDs and retry relationships.
+- Compare historical tables row by row.
+- Reconcile all 366 Audit 19 records.
+- Verify canonical dataset immutability against the original baseline.
+- Detect missing, duplicated and overwritten history.
+- Exit with a nonzero exit code if any mandatory check fails.
+
+Do not simply reuse the same enrichment validator for all independent checks.
+
+The verifier must independently calculate hashes, counts, field parity, and historical reconciliation.
+
+---
+
+# PART 2 — DATABASE AND DATASET PROTECTION
+
+The five canonical datasets must remain unchanged.
+
+Expected canonical record counts:
+
+| Dataset | Expected records |
+|---|---:|
+| AI Startups | 1,307 |
+| AI Products | 1,316 |
+| Research Papers | 1,060 |
+| AI News | 1,132 |
+| AI Jobs | 1,930 |
+| TOTAL | 6,745 |
+
+Requirements:
+
+1. Preserve all 6,745 canonical records.
+2. Compare every canonical record against the original baseline.
+3. Preserve original primary keys.
+4. Preserve original source URLs and provenance.
+5. Do not delete or recreate canonical tables.
+6. Do not modify historical canonical data.
+7. Back up the database before any migration.
+8. Keep the Audit 22 database unchanged as a separate historical artifact.
+9. Create a separate corrected Audit 23 database.
+10. Document every database migration.
+
+Run SQLite integrity checks and verify all expected tables.
+
+---
+
+# PART 3 — TESTING REQUIREMENTS
+
+Run the complete test suite.
+
+Include tests for:
+
+- Semantic validation
+- Negation and context isolation
+- Taxonomy enforcement
+- Heuristic provider restrictions
+- Source-version hashing
+- Evidence traceability
+- JSONL/SQLite parity
+- CSV/SQLite parity
+- Database persistence
+- Historical recovery
+- Backup integrity
+- Retry and attempt ID preservation
+- Canonical immutability
+- Verifier failure behavior
+
+Do not report a passing test suite if any test was skipped, failed, or not executed.
+
+Provide the complete test execution output.
+
+---
+
+# PART 4 — ENRICHMENT PROVIDER RESTRICTIONS
+
+For this audit:
+
+- Do not make paid API calls.
+- Do not use Gemini, OpenAI, Groq or other paid remote services.
+- Do not run a new enrichment job.
+- Preserve the existing 37 Audit 22 enrichment results.
+- Keep the provider clearly identified as an offline heuristic provider.
+- Report zero tokens and zero cost only if verified from actual execution.
+
+Do not describe heuristic enrichment as genuine LLM enrichment.
+
+---
+
+# PART 5 — INDEPENDENT AUDIT 23 VERIFICATION
+
+Create a standalone verification script:
+
+`scripts/verify_audit23_stage3.py`
+
+It must perform these checks:
+
+### Check 1: Canonical dataset integrity
+Verify all 6,745 canonical records against the original baseline.
+
+### Check 2: Database integrity
+Run SQLite integrity checks and inspect table schemas.
+
+### Check 3: Historical preservation
+Reconcile all 366 Audit 19 records and all later audit attempts.
+
+### Check 4: Backup integrity
+Compare every backup table with its original source table row by row.
+
+### Check 5: Semantic validation
+Run all existing and new adversarial tests.
+
+### Check 6: Taxonomy enforcement
+Verify no unsupported category is marked VERIFIED.
+
+### Check 7: Heuristic restrictions
+Verify no heuristic-generated claim is automatically marked VERIFIED.
+
+### Check 8: Evidence traceability
+Verify every evidence excerpt against its canonical source.
+
+### Check 9: Source-version integrity
+Recompute complete SHA-256 hashes.
+
+### Check 10: JSONL/SQLite parity
+Compare every shared field across all records.
+
+### Check 11: CSV/SQLite parity
+Compare every shared field across all review queue records.
+
+### Check 12: Attempt history
+Verify unique attempt IDs, retry relationships and historical recovery.
+
+### Check 13: Manifest integrity
+Verify every physical artifact against its full SHA-256 digest.
+
+### Check 14: Reproducibility
+Ensure the verification script works using documented commands without manual code modifications.
+
+The verifier must produce:
+
+`reports/audit23_verification_output.txt`
+
+It must report PASS, FAIL, or REVIEW for each check.
+
+Any mandatory failed check must cause a nonzero process exit code.
+
+---
+
+# PART 6 — CREATE THE INDEPENDENT REVIEW ZIP
+
+This is a mandatory deliverable.
+
+Create a new folder in the project root:
+
+`AUDIT_23_INDEPENDENT_REVIEW_PACKAGE/`
+
+Inside it, create this structure:
+
+```text
+AUDIT_23_INDEPENDENT_REVIEW_PACKAGE/
+│
+├── README_AUDIT23.md
+├── submission_inventory.csv
+│
+├── 01_SOURCE_CODE/
+│   ├── core/
+│   │   └── enrichment/
+│   │       ├── validator.py
+│   │       ├── schemas.py
+│   │       ├── engine.py
+│   │       ├── base.py
+│   │       ├── factory.py
+│   │       └── all provider implementations
+│   │
+│   ├── scripts/
+│   │   └── verify_audit23_stage3.py
+│   │
+│   ├── tests/
+│   │   ├── test_evidence_validator.py
+│   │   ├── test_persistence_and_logging.py
+│   │   ├── test_pipeline_integration.py
+│   │   └── all other relevant tests
+│   │
+│   └── requirements.txt
+│
+├── 02_DATABASES/
+│   ├── audit19_original_baseline.db
+│   ├── audit22_submitted.db
+│   ├── audit23_corrected.db
+│   └── database_backups/
+│
+├── 03_ENRICHMENT_OUTPUTS/
+│   ├── stage3_enrichment_results.jsonl
+│   ├── stage3_review_queue.csv
+│   ├── llm_review_queue.csv
+│   ├── stage3_provider_usage.json
+│   └── stage3_enrichment_summary.json
+│
+├── 04_HISTORY_AND_RECOVERY/
+│   ├── audit19_original_366_records.json
+│   ├── audit19_to_audit23_reconciliation.csv
+│   ├── all_attempt_ids.csv
+│   ├── historical_table_exports/
+│   └── history_preservation_report.md
+│
+├── 05_AUDIT_REPORTS/
+│   ├── stage3_enrichment_report.md
+│   ├── stage3_validation_report.md
+│   ├── audit23_findings.md
+│   └── audit23_test_summary.md
+│
+└── 06_VERIFICATION/
+    ├── audit23_verification_output.txt
+    ├── test_output.txt
+    ├── stage3_file_manifest.json
+    ├── sha256_checksums.txt
+    └── reproduction_commands.md
+```
+
+Include the actual physical files, not placeholders or references to Windows file URLs.
+
+If a required original artifact is unavailable, explicitly mark it MISSING and explain why. Never create fake historical files.
+
+### Source code inclusion
+
+Include the full relevant source code needed to understand and reproduce the Stage 3 pipeline.
+
+Do not include API keys, `.env` files, credentials, tokens, or other secrets.
+
+### Database inclusion
+
+Include all three database generations:
+
+1. Original Audit 19 baseline.
+2. Exact Audit 22 database.
+3. Corrected Audit 23 database.
+
+Do not substitute a reconstructed database for the original Audit 19 database.
+
+### File manifest
+
+Generate a manifest containing:
+
+- Relative file path
+- File size in bytes
+- Full 64-character SHA-256 digest
+- Artifact description
+
+The manifest must cover every file in the ZIP except the manifest itself and the ZIP archive.
+
+---
+
+# PART 7 — CREATE THE ZIP
+
+Create the final archive:
+
+`AUDIT_23_INDEPENDENT_REVIEW_PACKAGE.zip`
+
+Save it in the project root.
+
+After creating it:
+
+1. Reopen the ZIP.
+2. List all entries.
+3. Verify that all mandatory files are physically present.
+4. Check for empty or placeholder files.
+5. Recompute SHA-256 hashes of the packaged files.
+6. Confirm the archive can be extracted.
+7. Confirm the source files inside the ZIP match the actual project source files.
+8. Print the final ZIP size.
+9. Print the final ZIP SHA-256 digest.
+10. Provide the exact file path to the ZIP.
+
+---
+
+# PART 8 — FINAL EXECUTION REPORT
+
+At completion, provide a concise report containing:
+
+1. Corrections implemented.
+2. Historical records recovered.
+3. Number of unrecoverable historical records, if any.
+4. Canonical dataset integrity result.
+5. Semantic test results.
+6. Total tests passed, failed and skipped.
+7. Independent verifier results.
+8. Full artifact inventory.
+9. ZIP location.
+10. ZIP size and SHA-256.
+11. Any outstanding limitations.
+
+Do not hide failed checks.
+
+Do not claim approval.
+
+Do not execute Stage 4 (Google Sheets integration).
+
+Do not execute Stage 5 (GitHub submission preparation).
+
+**STOP after generating the Audit 23 package. Wait for the independent reviewer to inspect the ZIP and explicitly approve Stage 3.**
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-11-22T13:37:09+05:30.
+</ADDITIONAL_METADATA>

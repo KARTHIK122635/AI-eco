@@ -1,0 +1,18 @@
+[Unit]
+Description=Daily AI Ecosystem Rolling Data Intelligence Pipeline
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=ai-pipeline
+WorkingDirectory=/opt/ai_ecosystem
+ExecStart=/opt/ai_ecosystem/venv/bin/python -m core.scheduler --run-once
+StandardOutput=journal
+StandardError=journal
+TimeoutStartSec=1800
+Restart=on-failure
+RestartSec=60
+
+[Install]
+WantedBy=multi-user.target

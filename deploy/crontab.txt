@@ -1,0 +1,3 @@
+# Daily AI Ecosystem Rolling Intelligence Pipeline (UTC)
+# Runs every day at 06:00 UTC with run_pilot=False by default (routine execution)
+0 6 * * * cd /opt/ai_ecosystem && /opt/ai_ecosystem/venv/bin/python -m core.scheduler --run-once >> /opt/ai_ecosystem/logs/scheduler_cron.log 2>&1

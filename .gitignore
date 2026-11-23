@@ -1,0 +1,30 @@
+# Environment variables
+.env
+.env.local
+*.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Temporary test directories
+temp_*
+clean_room_*
+
+# OS artifacts
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Secrets and Credentials
+secrets/
+token.json
+*token*.json
+*credentials*.json
+*client_secret*.json
+*.pem
+*.key
+

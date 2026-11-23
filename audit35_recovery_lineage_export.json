@@ -1,0 +1,224 @@
+{
+  "export_metadata": {
+    "title": "Audit 35 Strict Recovery Lineage & Stale Worker Protection Export",
+    "generated_at": "2026-11-22T21:30:27.726509+00:00",
+    "audit_target": "FrontierAtlas / GraphOne AI Engineer Technical Evaluation",
+    "lineage_verification_version": "2.0.0 (Strict Execution Row & Lease-Owned Checkpoints)",
+    "total_documented_cycles": 6,
+    "production_runs_count": 3
+  },
+  "lineage_invariants": [
+    "Original run row MUST exist in collection_logs.",
+    "Recovery execution row MUST exist in collection_logs (zero missing rows tolerated).",
+    "original.recovery_run_id MUST strictly equal recovery execution ID.",
+    "recovery.original_run_id MUST strictly equal original run ID.",
+    "Recovery execution row MUST have terminal status COMPLETED.",
+    "Recovery execution ID MUST match active lease claim.",
+    "record_stage_progress updates original run conditionally: WHERE run_id=? AND status='RECOVERY_IN_PROGRESS' AND lease_owner=? AND recovery_run_id=? (PermissionError on mismatch).",
+    "log_collection_checkpoint separates INSERT for new runs from conditional UPDATE for existing runs (PermissionError on lease mismatch)."
+  ],
+  "verified_lineage_cycles": [
+    {
+      "cycle_id": "CYCLE_01_REAL_HARD_KILL_RECOVERY",
+      "audit_round": "Audit 34 / Audit 35",
+      "test_case": "test_audit34_real_recovery.py:test_01_real_hard_kill_during_actual_pipeline_recovery",
+      "original_run_id": "test_audit34_hard_kill_orig",
+      "original_terminal_status": "RECOVERED_INTERRUPTED",
+      "abandoned_recovery_run_id": "recovery_worker_killed_pid",
+      "abandoned_terminal_status": "ABANDONED_RECOVERY",
+      "final_recovery_run_id": "recovery_supervisor_resumed",
+      "final_recovery_status": "COMPLETED",
+      "bidirectional_lineage_status": "VERIFIED_BIDIRECTIONAL",
+      "resumed_from_stage": "STAGE_3_GITHUB_METRICS",
+      "skipped_stages": [
+        "STAGE_1_NEWS",
+        "STAGE_2_JOBS"
+      ],
+      "completed_stages": [
+        "STAGE_3_GITHUB_METRICS",
+        "STAGE_4_VACANCY_LIFECYCLE",
+        "STAGE_5_EXPORTS",
+        "STAGE_6_REPORT"
+      ],
+      "lineage_invariants": {
+        "orig_references_final_recovery": true,
+        "final_recovery_references_orig": true,
+        "abandoned_references_orig": true,
+        "zero_stage_duplication": true,
+        "recovery_execution_row_present": true
+      }
+    },
+    {
+      "cycle_id": "CYCLE_02_HEALTHY_LEASE_PROTECTION",
+      "audit_round": "Audit 34 / Audit 35",
+      "test_case": "test_audit34_real_recovery.py:test_02_healthy_lease_protection_across_independent_processes",
+      "original_run_id": "run_proc_a_healthy",
+      "original_terminal_status": "COMPLETED",
+      "abandoned_recovery_run_id": null,
+      "abandoned_terminal_status": "N/A (Recovery refused by Proc B)",
+      "final_recovery_run_id": "NONE (Process A completed directly)",
+      "final_recovery_status": "COMPLETED",
+      "bidirectional_lineage_status": "VERIFIED_UNCONTAMINATED",
+      "resumed_from_stage": "STAGE_2_JOBS",
+      "skipped_stages": [],
+      "completed_stages": [
+        "STAGE_1_NEWS",
+        "STAGE_2_JOBS",
+        "STAGE_3_GITHUB_METRICS",
+        "STAGE_4_VACANCY_LIFECYCLE",
+        "STAGE_5_EXPORTS",
+        "STAGE_6_REPORT"
+      ],
+      "lineage_invariants": {
+        "active_lease_unbroken": true,
+        "zero_stolen_locks": true,
+        "zero_secondary_recovery_runs": true
+      }
+    },
+    {
+      "cycle_id": "CYCLE_03_DIRECT_RECOVERY_RESUMPTION",
+      "audit_round": "Audit 34 / Audit 35",
+      "test_case": "test_audit34_real_recovery.py:test_03_bidirectional_lineage_and_ownership_verification",
+      "original_run_id": "test_lineage_orig_run",
+      "original_terminal_status": "RECOVERED_INTERRUPTED",
+      "abandoned_recovery_run_id": null,
+      "abandoned_terminal_status": "N/A (Direct clean recovery)",
+      "final_recovery_run_id": "recovery_lineage_clean",
+      "final_recovery_status": "COMPLETED",
+      "bidirectional_lineage_status": "VERIFIED_BIDIRECTIONAL",
+      "resumed_from_stage": "STAGE_5_EXPORTS",
+      "skipped_stages": [
+        "STAGE_1_NEWS",
+        "STAGE_2_JOBS",
+        "STAGE_3_GITHUB_METRICS",
+        "STAGE_4_VACANCY_LIFECYCLE"
+      ],
+      "completed_stages": [
+        "STAGE_5_EXPORTS",
+        "STAGE_6_REPORT"
+      ],
+      "lineage_invariants": {
+        "orig_references_final_recovery": true,
+        "final_recovery_references_orig": true,
+        "single_recovery_id_generated": true,
+        "recovery_execution_row_present": true
+      }
+    },
+    {
+      "cycle_id": "CYCLE_04_MISSING_RECOVERY_ROW_REJECTION",
+      "audit_round": "Audit 35 Strict Lineage",
+      "test_case": "test_audit35_strict_lineage.py:test_01_missing_recovery_row_cannot_finalize_original_run",
+      "original_run_id": "test_audit35_orig_missing_rec",
+      "original_terminal_status": "INTERRUPTED (Reverted from RECOVERY_IN_PROGRESS)",
+      "abandoned_recovery_run_id": null,
+      "abandoned_terminal_status": "MISSING_ROW_DETECTED",
+      "final_recovery_run_id": "recovery_simulated_missing",
+      "final_recovery_status": "RECOVERY_LINEAGE_FAILED",
+      "bidirectional_lineage_status": "STRICTLY_REJECTED (Missing recovery row)",
+      "resumed_from_stage": "STAGE_3_GITHUB_METRICS",
+      "skipped_stages": [
+        "STAGE_1_NEWS",
+        "STAGE_2_JOBS"
+      ],
+      "completed_stages": [],
+      "lineage_invariants": {
+        "orig_references_final_recovery": false,
+        "final_recovery_references_orig": false,
+        "recovery_execution_row_present": false,
+        "original_finalization_blocked": true
+      }
+    },
+    {
+      "cycle_id": "CYCLE_05_MISMATCHED_LINEAGE_REJECTION",
+      "audit_round": "Audit 35 Strict Lineage",
+      "test_case": "test_audit35_strict_lineage.py:test_02_mismatched_recovery_lineage_cannot_finalize_original_run",
+      "original_run_id": "test_audit35_orig_mismatched",
+      "original_terminal_status": "INTERRUPTED (Reverted from RECOVERY_IN_PROGRESS)",
+      "abandoned_recovery_run_id": null,
+      "abandoned_terminal_status": "MISMATCHED_LINEAGE",
+      "final_recovery_run_id": "recovery_mismatched",
+      "final_recovery_status": "RECOVERY_LINEAGE_FAILED",
+      "bidirectional_lineage_status": "STRICTLY_REJECTED (Foreign key pointer mismatch)",
+      "resumed_from_stage": "STAGE_2_JOBS",
+      "skipped_stages": [
+        "STAGE_1_NEWS"
+      ],
+      "completed_stages": [],
+      "lineage_invariants": {
+        "orig_references_final_recovery": false,
+        "final_recovery_references_orig": false,
+        "recovery_execution_row_present": true,
+        "original_finalization_blocked": true
+      }
+    },
+    {
+      "cycle_id": "CYCLE_06_STALE_WORKER_CHECKPOINT_REJECTION",
+      "audit_round": "Audit 35 Strict Lineage",
+      "test_case": "test_audit35_strict_lineage.py:test_04_stale_recovery_worker_checkpoint_rejected",
+      "original_run_id": "test_orig_stale_worker",
+      "original_terminal_status": "RECOVERY_IN_PROGRESS (Protected under superseding supervisor)",
+      "abandoned_recovery_run_id": "recovery_stale_111",
+      "abandoned_terminal_status": "REJECTED_WITH_PERMISSION_ERROR",
+      "final_recovery_run_id": "recovery_new_222",
+      "final_recovery_status": "ACTIVE_SUPERVISOR_LEASE",
+      "bidirectional_lineage_status": "VERIFIED_STALE_PROTECTION",
+      "resumed_from_stage": "STAGE_2_JOBS",
+      "skipped_stages": [
+        "STAGE_1_NEWS"
+      ],
+      "completed_stages": [],
+      "lineage_invariants": {
+        "stale_worker_checkpoint_blocked": true,
+        "superseding_lease_unmodified": true,
+        "superseding_recovery_id_preserved": true
+      }
+    }
+  ],
+  "production_runs": [
+    {
+      "run_id": "run_20261122_150000_221724",
+      "execution_type": "ROUTINE_DAILY_INCREMENTAL",
+      "status": "COMPLETED",
+      "start_time": "2026-11-22T15:00:00+00:00",
+      "end_time": "2026-11-22T16:01:06.218004+00:00",
+      "original_run_id": null,
+      "recovery_run_id": null,
+      "lease_owner": null,
+      "process_id": null,
+      "host_name": null,
+      "last_heartbeat": null,
+      "checkpoint_data": "{\"original_run_id\": null, \"recovery_run_id\": null, \"resume_from_stage\": null, \"resumed_stages\": [\"STAGE_1_NEWS\", \"STAGE_2_JOBS\", \"STAGE_3_GITHUB_METRICS\", \"STAGE_4_VACANCY_LIFECYCLE\", \"STAGE_5_EXPORTS\", \"STAGE_6_REPORT\"], \"completed_stages\": [\"STAGE_1_NEWS\", \"STAGE_2_JOBS\", \"STAGE_3_GITHUB_METRICS\", \"STAGE_4_VACANCY_LIFECYCLE\", \"STAGE_5_EXPORTS\", \"STAGE_6_REPORT\"], \"last_completed_stage\": \"STAGE_6_REPORT\"}",
+      "error_log": null
+    },
+    {
+      "run_id": "recovery_20261122_212554_7ee642",
+      "execution_type": "STAGE_LEVEL_RECOVERY",
+      "status": "COMPLETED",
+      "start_time": "2026-11-22T21:25:54.962115+00:00",
+      "end_time": null,
+      "original_run_id": "interrupted_audit31_025554",
+      "recovery_run_id": null,
+      "lease_owner": "Karthik:32664:40dcd5e6",
+      "process_id": null,
+      "host_name": null,
+      "last_heartbeat": null,
+      "checkpoint_data": "{\"resumed_stages\": [\"STAGE_3_GITHUB_METRICS\", \"STAGE_4_VACANCY_LIFECYCLE\", \"STAGE_5_EXPORTS\", \"STAGE_6_REPORT\"]}",
+      "error_log": null
+    },
+    {
+      "run_id": "recovery_20261122_212843_ceea58",
+      "execution_type": "STAGE_LEVEL_RECOVERY",
+      "status": "COMPLETED",
+      "start_time": "2026-11-22T21:28:43.395098+00:00",
+      "end_time": null,
+      "original_run_id": "interrupted_audit31_025843",
+      "recovery_run_id": null,
+      "lease_owner": "Karthik:35728:8deb1c80",
+      "process_id": null,
+      "host_name": null,
+      "last_heartbeat": null,
+      "checkpoint_data": "{\"resumed_stages\": [\"STAGE_3_GITHUB_METRICS\", \"STAGE_4_VACANCY_LIFECYCLE\", \"STAGE_5_EXPORTS\", \"STAGE_6_REPORT\"]}",
+      "error_log": null
+    }
+  ]
+}

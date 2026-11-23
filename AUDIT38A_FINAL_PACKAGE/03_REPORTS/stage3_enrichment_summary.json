@@ -1,0 +1,55 @@
+{
+  "stage": "Phase II — Stage 3: LLM Fallback and Enrichment",
+  "generated_at": "2026-11-22T09:52:50.721074+00:00",
+  "provider_used": "offline",
+  "model_used": "heuristic-keyword-v1",
+  "cumulative_token_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "estimated_cost_usd": 0.0
+  },
+  "dataset_scope": {
+    "ai_startups_total": 1307,
+    "ai_products_total": 1316,
+    "ai_research_papers_total": 1060,
+    "ai_news_total": 1132,
+    "ai_jobs_total": 1930,
+    "grand_total_records": 6745
+  },
+  "enrichment_metrics": {
+    "total_enrichment_operations": 37,
+    "validation_status_breakdown": {
+      "VERIFIED": 0,
+      "NEEDS_REVIEW": 26,
+      "INSUFFICIENT_EVIDENCE": 10,
+      "FAILED": 1
+    },
+    "entity_type_breakdown": {
+      "startup": 7,
+      "paper": 12,
+      "news": 10,
+      "job": 8
+    },
+    "field_name_breakdown": {
+      "startup.ai_specialization": 3,
+      "startup.technologies": 4,
+      "paper.methodology": 10,
+      "paper.key_contributions": 1,
+      "paper.research_domain": 1,
+      "news.summary": 10,
+      "job.technologies": 5,
+      "job.required_skills": 3
+    }
+  },
+  "anti_hallucination_compliance": {
+    "evidence_required_enforced": true,
+    "salary_inference_prohibited": true,
+    "location_inference_prohibited": true,
+    "vacant_status_preserved": true,
+    "boundary_15_review_jobs_preserved": true,
+    "news_summary_without_text_prohibited": true,
+    "taxonomy_conformance_verified": true,
+    "qualifier_and_attribution_stripping_prohibited": true
+  }
+}

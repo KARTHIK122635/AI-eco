@@ -1,0 +1,11 @@
+[Unit]
+Description=Daily Trigger Timer for AI Ecosystem Rolling Data Pipeline
+Requires=ai_ecosystem_daily.service
+
+[Timer]
+OnCalendar=*-*-* 06:00:00 UTC
+Persistent=true
+RandomizedDelaySec=120
+
+[Install]
+WantedBy=timers.target

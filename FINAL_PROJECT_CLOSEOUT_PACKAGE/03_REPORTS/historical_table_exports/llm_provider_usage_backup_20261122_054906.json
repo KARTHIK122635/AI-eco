@@ -1,0 +1,12 @@
+[
+  {
+    "call_id": "588dcdff-e0c8-483c-ba55-afe3a317c539",
+    "provider": "offline",
+    "model": "heuristic-keyword-v1",
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "estimated_cost_usd": 0.0,
+    "recorded_at": "2026-11-22T05:47:12.084625+00:00"
+  }
+]

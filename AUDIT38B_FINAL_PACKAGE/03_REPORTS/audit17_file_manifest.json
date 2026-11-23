@@ -1,0 +1,57 @@
+[
+  {
+    "path": "data/canonical/canonical_jobs.jsonl",
+    "size": 16623070,
+    "sha256": "a5dbbad960509a8a98ebc1037a7cc261f977e642a22274740f4852685393f97f"
+  },
+  {
+    "path": "data/canonical/canonical_jobs.csv",
+    "size": 15020979,
+    "sha256": "00c144a84bca86e5a5fe79f7fd69b6d919bd4e234b5281a933843902c571084d"
+  },
+  {
+    "path": "data/normalized/ai_ecosystem.db",
+    "size": 21024768,
+    "sha256": "8a4a726268b79ab1a85a7a83fdc226f4e64ecee95f9512dc7e0d458d8de4c54c"
+  },
+  {
+    "path": "reports/stage2_semantic_classification_audit.csv",
+    "size": 1071005,
+    "sha256": "4f2e1d9679e711b8bd2dd8183df8af5f779c9856db47f0faa1f6fce4d2ae5b53"
+  },
+  {
+    "path": "reports/stage2_classification_reason_quality_audit.csv",
+    "size": 408669,
+    "sha256": "5602d59210c93f79d0f9391697f38c860fdd0b59f233b19b07ef9dbf5e9dfd4e"
+  },
+  {
+    "path": "reports/stage2_quality_metrics.json",
+    "size": 3390,
+    "sha256": "b5a820b6c32da29626f8dfa009e7352986c7ddc8b6f400fecbf9ba436108b167"
+  },
+  {
+    "path": "reports/stage2_url_validation.csv",
+    "size": 870010,
+    "sha256": "02e5ff3046206c31beb7526ff0b976a66f931ce3f498cfc44508d199648a26b9"
+  },
+  {
+    "path": "reports/stage2_ai_relevance_audit.csv",
+    "size": 410084,
+    "sha256": "ebf532c6f8b996600cc625fe4acb050d579f6a62be7f1eb68a992ecfefce92b2"
+  },
+  {
+    "path": "reports/audit17_candidates_inspection.json",
+    "size": 64209,
+    "sha256": "73aa2cdf7e5af4482bc63861501636060124d853126822eb4ab420d957454f9b"
+  },
+  {
+    "path": "reports/audit17_9_corrected_records.json",
+    "size": 11683,
+    "sha256": "3fe16b014938a4dd8c8f935d7a90161e1d0015fe57ec36bc3b4a02947b5a581e"
+  },
+  {
+    "path": "reports/stage2_independent_audit_report.md",
+    "size": 57569,
+    "sha256": "ab6f0e134d9d037f86e650e5495f8c3020eecb35353bf69c246601043edf0e8d"
+  }
+]
