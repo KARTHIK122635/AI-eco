@@ -1,2 +1,0 @@
-call_id,provider,model,prompt_tokens,completion_tokens,total_tokens,estimated_cost_usd,recorded_at
-588dcdff-e0c8-483c-ba55-afe3a317c539,offline,heuristic-keyword-v1,0,0,0,0.0,2026-11-22T05:47:12.084625+00:00

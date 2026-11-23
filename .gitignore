@@ -28,3 +28,12 @@ token.json
 *.pem
 *.key
 
+# Local Archives and Bloat Packages
+archive/
+*.zip
+AUDIT*_FINAL_PACKAGE/
+FINAL_PROJECT_CLOSEOUT_PACKAGE/
+SIX_MONTH_ROLLING_AI_ECOSYSTEM_PACKAGE/
+deliverables_audit22/
+
+

@@ -1,10 +1,21 @@
-# Python dependencies for AI Ecosystem Data Acquisition and LLM Enrichment (Stage 3)
-# Audit 23 Independent Review Package
+# AI Ecosystem Intelligence Pipeline - Production Dependencies
 
-# Core standard library modules used:
-# sqlite3, hashlib, json, csv, re, unittest, dataclasses, typing, datetime, argparse, logging, shutil, os, sys
+# HTTP & Asynchronous Networking
+httpx>=0.27.0
+beautifulsoup4>=4.12.0
+python-dateutil>=2.8.2
 
-# Optional external dependencies for remote providers (not invoked during offline review):
-# google-generativeai>=0.8.0
-# openai>=1.50.0
-# groq>=0.11.0
+# Google Cloud & Google Workspace APIs
+google-api-python-client>=2.100.0
+google-auth>=2.20.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.2.0
+
+# LLM Providers (Multi-Tier Enrichment)
+google-generativeai>=0.8.0
+openai>=1.50.0
+
+# Architecture & Document Generation
+reportlab>=4.0.0
+pymupdf>=1.23.0
+matplotlib>=3.7.0

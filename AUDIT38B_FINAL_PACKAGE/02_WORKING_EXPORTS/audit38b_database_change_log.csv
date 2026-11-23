@@ -1,3 +1,0 @@
-change_id,entity_type,record_id,field_name,before_value,after_value,reason,justification_evidence,applied_at,operator
-CHG-AUDIT38B-001,ai_jobs,job_201518350968ce4f,job_status,AGGREGATOR_LISTED,CLOSED,Reconciled with live endpoint evidence: Remotive returned HTTP 404 Not Found.,HTTP 404 response confirmed listing deletion/expiration on Remotive.,2026-11-23T00:14:03.793442+00:00,Audit38B_Autonomous_Reliability_Agent
-CHG-AUDIT38B-002,ai_jobs,job_201518350968ce4f,vacancy_status,SOURCE_LISTED,CLOSED,Reconciled with live endpoint evidence: Remotive returned HTTP 404 Not Found.,HTTP 404 response confirmed listing deletion/expiration on Remotive.,2026-11-23T00:14:03.793442+00:00,Audit38B_Autonomous_Reliability_Agent
